@@ -203,14 +203,14 @@ export default function ProductCard({ product, onAddToBag }) {
 
   function badgeClass(tone) {
     const base =
-      'rounded-full px-3.5 py-1.5 text-[10px] font-bold uppercase tracking-[0.2em] shadow-xl backdrop-blur-md'
+      'rounded-md px-2.5 py-1 text-[9px] font-bold uppercase tracking-[0.2em] shadow-lg backdrop-blur-md'
     if (tone === 'sale') {
-      return `${base} bg-[#DC2626] font-extrabold text-white shadow-lg shadow-red-500/20`
+      return `${base} bg-[#DC2626] text-white`
     }
     if (tone === 'gold') {
-      return `${base} border border-amber-200/50 bg-gradient-to-r from-[#D4AF37] to-[#AA820A] font-extrabold text-[#08090C] shadow-lg shadow-amber-500/20`
+      return `${base} bg-[#D4AF37] text-[#08090C]`
     }
-    return `${base} border border-white/15 bg-[#121316] text-[#F5F5F7] dark:border-black/10 dark:bg-white dark:text-[#08090C]`
+    return `${base} border border-white/20 bg-[#121316]/90 text-white dark:bg-white/90 dark:text-[#08090C]`
   }
 
   return (
@@ -234,21 +234,12 @@ export default function ProductCard({ product, onAddToBag }) {
             className="relative m-2.5 block aspect-[4/5] overflow-hidden rounded-xl bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10"
           >
             {(leftBadges.length > 0 || rightBadges.length > 0) && (
-              <div className="pointer-events-none absolute inset-x-4 top-4 z-10 flex items-start justify-between gap-2">
-                <div className="flex max-w-[68%] flex-wrap gap-2">
-                  {leftBadges.map((badge) => (
-                    <span key={badge.id} className={badgeClass(badge.tone)}>
-                      {badge.label}
-                    </span>
-                  ))}
-                </div>
-                <div className="flex flex-wrap justify-end gap-2">
-                  {rightBadges.map((badge) => (
-                    <span key={badge.id} className={badgeClass(badge.tone)}>
-                      {badge.label}
-                    </span>
-                  ))}
-                </div>
+              <div className="pointer-events-none absolute top-3 left-3 z-10 flex max-w-[calc(100%-1.5rem)] flex-wrap items-center gap-1.5">
+                {[...leftBadges, ...rightBadges].map((badge) => (
+                  <span key={badge.id} className={badgeClass(badge.tone)}>
+                    {badge.label}
+                  </span>
+                ))}
               </div>
             )}
 
