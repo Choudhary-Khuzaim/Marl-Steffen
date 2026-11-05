@@ -10,7 +10,7 @@ export default function BrandStoryBanner() {
             alt=""
             className="absolute inset-0 h-full w-full object-cover opacity-80"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-brand-bg via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#121316]/75 via-[#121316]/25 to-transparent dark:from-brand-bg dark:via-transparent" />
         </div>
 
         <div className="flex flex-col justify-center bg-brand-surface px-8 py-12 lg:px-14">

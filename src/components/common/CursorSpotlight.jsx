@@ -28,7 +28,7 @@ export default function CursorSpotlight() {
   return (
     <div
       aria-hidden="true"
-      className="pointer-events-none fixed inset-0 z-[70] hidden mix-blend-screen lg:block"
+      className="pointer-events-none fixed inset-0 z-[70] hidden mix-blend-multiply lg:block dark:mix-blend-screen"
       style={{ opacity: visible ? 1 : 0, transition: 'opacity 0.35s ease' }}
     >
       <div
@@ -37,7 +37,7 @@ export default function CursorSpotlight() {
           left: pos.x,
           top: pos.y,
           background:
-            'radial-gradient(circle, rgba(212,175,55,0.14) 0%, rgba(212,175,55,0.05) 35%, transparent 70%)',
+            'radial-gradient(circle, rgba(var(--brand-gold-rgb),0.16) 0%, rgba(var(--brand-gold-rgb),0.05) 35%, transparent 70%)',
         }}
       />
     </div>

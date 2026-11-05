@@ -82,7 +82,7 @@ export default function QuickViewModal() {
     <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
       <motion.button
         type="button"
-        className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+        className="modal-backdrop absolute inset-0 backdrop-blur-sm"
         aria-label="Close quick view"
         onClick={closeQuickView}
         initial={{ opacity: 0 }}

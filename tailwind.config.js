@@ -1,22 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
         brand: {
-          bg: '#08090C',
-          surface: '#111318',
-          card: '#171A21',
-          cardHover: '#1E222B',
-          border: '#262A34',
-          gold: '#D4AF37',
-          goldLight: '#F3E5AB',
-          goldDark: '#AA820A',
-          text: '#F5F5F7',
-          muted: '#949BA6',
-          danger: '#EF4444',
-          success: '#10B981',
+          bg: 'var(--brand-bg)',
+          surface: 'var(--brand-surface)',
+          card: 'var(--brand-card)',
+          cardHover: 'var(--brand-card-hover)',
+          border: 'var(--brand-border)',
+          gold: 'var(--brand-gold)',
+          goldLight: 'var(--brand-gold-light)',
+          goldDark: 'var(--brand-gold-dark)',
+          text: 'var(--brand-text)',
+          muted: 'var(--brand-muted)',
+          danger: 'var(--brand-danger)',
+          success: 'var(--brand-success)',
         },
       },
       fontFamily: {
@@ -25,13 +26,14 @@ export default {
       },
       backgroundImage: {
         'gold-gradient':
-          'linear-gradient(to right, #D4AF37, #F3E5AB, #AA820A)',
+          'linear-gradient(to right, var(--brand-gold), var(--brand-gold-light), var(--brand-gold-dark))',
         'ambient-spotlight':
-          'radial-gradient(ellipse 60% 50% at 20% 10%, rgba(212,175,55,0.12), transparent 55%), radial-gradient(ellipse 50% 40% at 85% 20%, rgba(243,229,171,0.06), transparent 50%)',
+          'radial-gradient(ellipse 60% 50% at 20% 10%, rgba(var(--brand-gold-rgb),0.12), transparent 55%), radial-gradient(ellipse 50% 40% at 85% 20%, rgba(var(--brand-gold-light-rgb),0.06), transparent 50%)',
       },
       boxShadow: {
-        'gold-glow': '0 0 25px rgba(212, 175, 55, 0.28)',
-        'gold-glow-lg': '0 0 40px rgba(212, 175, 55, 0.4)',
+        brand: 'var(--brand-shadow)',
+        'gold-glow': '0 0 25px rgba(var(--brand-gold-rgb), 0.28)',
+        'gold-glow-lg': '0 0 40px rgba(var(--brand-gold-rgb), 0.4)',
       },
       keyframes: {
         marquee: {
@@ -40,11 +42,11 @@ export default {
         },
         'pulse-gold': {
           '0%, 100%': {
-            boxShadow: '0 0 0 0 rgba(212, 175, 55, 0.45)',
+            boxShadow: '0 0 0 0 rgba(var(--brand-gold-rgb), 0.45)',
             transform: 'scale(1)',
           },
           '50%': {
-            boxShadow: '0 0 0 10px rgba(212, 175, 55, 0)',
+            boxShadow: '0 0 0 10px rgba(var(--brand-gold-rgb), 0)',
             transform: 'scale(1.05)',
           },
         },

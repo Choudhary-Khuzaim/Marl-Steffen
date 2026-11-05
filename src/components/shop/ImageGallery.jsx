@@ -39,7 +39,7 @@ export default function ImageGallery({ product, activeColorImage }) {
   const activeImage = images[activeIndex] || images[0]
   if (!activeImage) {
     return (
-      <div className="aspect-[4/5] overflow-hidden border border-brand-border bg-brand-surface">
+      <div className="aspect-[4/5] overflow-hidden border border-brand-border bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10">
         <ArchiveMonogram title={product.name} />
       </div>
     )
@@ -50,7 +50,7 @@ export default function ImageGallery({ product, activeColorImage }) {
   return (
     <div className="flex flex-col gap-4 lg:flex-row-reverse lg:items-start">
       <div
-        className="relative aspect-[4/5] w-full overflow-hidden border border-brand-border bg-brand-surface lg:flex-1"
+        className="relative aspect-[4/5] w-full overflow-hidden border border-brand-border bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10 lg:flex-1"
         onMouseEnter={() => setZooming(true)}
         onMouseLeave={() => setZooming(false)}
         onMouseMove={(event) => {

@@ -12,6 +12,7 @@ import {
 } from 'lucide-react'
 import MegaMenu from './MegaMenu'
 import SearchModal from './SearchModal'
+import ThemeToggle from './ThemeToggle'
 import { useCart } from '../../context/CartContext'
 import { categories } from '../../data/categories'
 
@@ -132,6 +133,7 @@ export default function Navbar() {
             </Link>
 
             <div className="flex flex-1 items-center justify-end gap-1 sm:gap-2">
+              <ThemeToggle />
               <button
                 type="button"
                 className="inline-flex h-10 w-10 items-center justify-center text-brand-text transition-colors duration-300 hover:text-brand-gold"
@@ -180,7 +182,7 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`fixed inset-0 z-40 bg-black/60 transition-opacity lg:hidden ${
+          className={`modal-backdrop fixed inset-0 z-40 transition-opacity lg:hidden ${
             mobileOpen ? 'opacity-100' : 'pointer-events-none opacity-0'
           }`}
           aria-hidden={!mobileOpen}

@@ -20,7 +20,7 @@ export default function LuxuryMarquee({ items = DEFAULT_ITEMS }) {
         {ribbon.map((item, index) => (
           <span
             key={`${item}-${index}`}
-            className="mx-6 inline-flex items-center gap-6 text-[11px] font-medium uppercase tracking-[0.28em] text-brand-goldLight/90"
+            className="mx-6 inline-flex items-center gap-6 text-[11px] font-medium uppercase tracking-[0.28em] text-brand-gold"
           >
             <span className="text-gold-gradient">{item}</span>
             <span className="h-1 w-1 rounded-full bg-brand-gold/70" aria-hidden="true" />

@@ -41,7 +41,7 @@ export default function WishlistDrawer() {
   return (
     <>
       <div
-        className={`fixed inset-0 z-50 bg-black/50 backdrop-blur-sm transition-opacity ${
+        className={`modal-backdrop fixed inset-0 z-50 backdrop-blur-sm transition-opacity ${
           isWishlistOpen ? 'opacity-100' : 'pointer-events-none opacity-0'
         }`}
         aria-hidden={!isWishlistOpen}

@@ -61,7 +61,7 @@ export default function BundleUpsellCard({
 
   return (
     <aside className="glass-panel overflow-hidden">
-      <div className="border-b border-white/10 bg-gradient-to-r from-brand-gold/10 via-transparent to-brand-gold/5 px-5 py-4">
+      <div className="border-b border-brand-border bg-gradient-to-r from-brand-gold/10 via-transparent to-brand-gold/5 px-5 py-4">
         <div className="flex items-center gap-2 text-brand-gold">
           <Package size={16} />
           <p className="text-[11px] font-semibold uppercase tracking-[0.18em]">

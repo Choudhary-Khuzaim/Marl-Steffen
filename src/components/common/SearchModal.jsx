@@ -62,7 +62,7 @@ export default function SearchModal({ open, onClose }) {
     <div className="fixed inset-0 z-[60] flex items-start justify-center px-4 pt-[12vh]">
       <button
         type="button"
-        className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+        className="modal-backdrop absolute inset-0 backdrop-blur-sm"
         aria-label="Close search"
         onClick={onClose}
       />

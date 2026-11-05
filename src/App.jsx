@@ -7,6 +7,7 @@ import {
   useLocation,
 } from 'react-router-dom'
 import { CartProvider } from './context/CartContext'
+import { ThemeProvider } from './context/ThemeContext'
 import AnnouncementBar from './components/common/AnnouncementBar'
 import Navbar from './components/common/Navbar'
 import Footer from './components/common/Footer'
@@ -68,26 +69,28 @@ function PlaceholderPage({ title, description }) {
 
 export default function App() {
   return (
-    <CartProvider>
-      <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route element={<StoreLayout />}>
-            <Route index element={<HomePage />} />
-            <Route path="shop" element={<ShopPage />} />
-            <Route path="product/:slug" element={<ProductDetailPage />} />
-            <Route
-              path="*"
-              element={
-                <PlaceholderPage
-                  title="Page Coming Soon"
-                  description="This Mark Steffen destination is reserved for future concierge content."
-                />
-              }
-            />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </CartProvider>
+    <ThemeProvider>
+      <CartProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route element={<StoreLayout />}>
+              <Route index element={<HomePage />} />
+              <Route path="shop" element={<ShopPage />} />
+              <Route path="product/:slug" element={<ProductDetailPage />} />
+              <Route
+                path="*"
+                element={
+                  <PlaceholderPage
+                    title="Page Coming Soon"
+                    description="This Mark Steffen destination is reserved for future concierge content."
+                  />
+                }
+              />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </CartProvider>
+    </ThemeProvider>
   )
 }

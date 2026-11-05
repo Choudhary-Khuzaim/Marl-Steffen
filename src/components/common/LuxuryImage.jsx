@@ -4,12 +4,12 @@ export function ArchiveMonogram({ title = '', className = '' }) {
   return (
     <div
       className={[
-        'flex h-full w-full flex-col items-center justify-center bg-[radial-gradient(circle_at_center,rgba(212,175,55,0.18),#08090C_70%)] px-4 text-center',
+        'flex h-full w-full flex-col items-center justify-center bg-[radial-gradient(circle_at_center,rgba(var(--brand-gold-rgb),0.18),var(--brand-bg)_70%)] px-4 text-center',
         className,
       ].join(' ')}
       aria-hidden="true"
     >
-      <div className="border border-brand-gold/35 px-4 py-6 shadow-[0_0_30px_rgba(212,175,55,0.12)]">
+      <div className="border border-brand-gold/35 px-4 py-6 shadow-[0_0_30px_rgba(var(--brand-gold-rgb),0.12)]">
         <p className="text-[9px] font-medium uppercase tracking-[0.28em] text-brand-gold">
           Mark Steffen Archive
         </p>
@@ -50,7 +50,7 @@ export default function LuxuryImage({
         <ArchiveMonogram title={title || alt} />
         {showVignette && (
           <div
-            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#08090C]/85 via-transparent to-black/30"
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent dark:from-black/45"
             aria-hidden="true"
           />
         )}
@@ -59,7 +59,12 @@ export default function LuxuryImage({
   }
 
   return (
-    <div className={['relative h-full w-full overflow-hidden', className].join(' ')}>
+    <div
+      className={[
+        'relative h-full w-full overflow-hidden bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10',
+        className,
+      ].join(' ')}
+    >
       <img
         src={src}
         alt={alt}
@@ -76,7 +81,7 @@ export default function LuxuryImage({
       {!loaded && <ArchiveMonogram title={title || alt} className="absolute inset-0" />}
       {showVignette && (
         <div
-          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#08090C]/85 via-transparent to-black/30"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent dark:from-black/45"
           aria-hidden="true"
         />
       )}

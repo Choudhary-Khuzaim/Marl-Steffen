@@ -286,7 +286,7 @@ export default function VariantSelector({ product, selection, onChange }) {
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           <button
             type="button"
-            className="absolute inset-0 bg-black/70 backdrop-blur-sm"
+            className="modal-backdrop absolute inset-0 backdrop-blur-sm"
             aria-label="Close size guide"
             onClick={() => setSizeGuideOpen(false)}
           />

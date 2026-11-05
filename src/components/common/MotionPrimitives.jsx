@@ -21,7 +21,7 @@ export function ScrollProgressBar() {
   return (
     <motion.div
       aria-hidden="true"
-      className="fixed top-0 left-0 right-0 z-[60] h-[2px] origin-left bg-gradient-to-r from-[#AA820A] via-[#D4AF37] to-[#F3E5AB]"
+      className="fixed top-0 left-0 right-0 z-[60] h-[2px] origin-left bg-gradient-to-r from-brand-goldDark via-brand-gold to-brand-goldLight"
       style={{ scaleX }}
     />
   )
@@ -113,7 +113,7 @@ export function TiltCard3D({ children, className = '', maxTilt = 6 }) {
   })
   const glareX = useTransform(mouseX, [0, 1], ['0%', '100%'])
   const glareY = useTransform(mouseY, [0, 1], ['0%', '100%'])
-  const glareBackground = useMotionTemplate`radial-gradient(circle at ${glareX} ${glareY}, rgba(243,229,171,0.28), transparent 55%)`
+  const glareBackground = useMotionTemplate`radial-gradient(circle at ${glareX} ${glareY}, rgba(var(--brand-gold-light-rgb),0.28), transparent 55%)`
 
   function handleMouseMove(event) {
     const bounds = ref.current?.getBoundingClientRect()

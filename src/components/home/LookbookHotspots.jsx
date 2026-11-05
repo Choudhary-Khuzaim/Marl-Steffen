@@ -84,7 +84,7 @@ export default function LookbookHotspots() {
               alt="Executive study lookbook"
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-brand-bg/50 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#121316]/35 via-transparent to-transparent dark:from-black/45" />
 
             {HOTSPOTS.map((spot) => {
               const product = products.find((item) => item.slug === spot.slug)

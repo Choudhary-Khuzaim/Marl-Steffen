@@ -40,19 +40,19 @@ export default function CategoryHierarchyGrid() {
                 <img
                   src={category.image}
                   alt=""
-                  className="h-full w-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105"
+                  className="h-full w-full object-cover opacity-70 transition-transform duration-700 group-hover:scale-105 dark:opacity-50"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-brand-bg via-brand-bg/55 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#121316]/88 via-[#121316]/35 to-transparent dark:from-brand-bg dark:via-brand-bg/55" />
               </Link>
 
               <div className="relative z-10 flex h-full flex-col justify-end p-5 sm:p-6">
-                <p className="text-[10px] uppercase tracking-[0.2em] text-brand-gold">
+                <p className="text-[10px] uppercase tracking-[0.2em] text-[#D4AF37]">
                   {category.tagline}
                 </p>
-                <h3 className="mt-1 font-serif text-2xl tracking-[0.08em] text-brand-text sm:text-3xl">
+                <h3 className="mt-1 font-serif text-2xl tracking-[0.08em] text-white sm:text-3xl">
                   {category.label}
                 </h3>
-                <p className="mt-2 max-w-md text-sm text-brand-muted line-clamp-2">
+                <p className="mt-2 max-w-md text-sm text-white/80 line-clamp-2">
                   {category.description}
                 </p>
 
@@ -65,7 +65,7 @@ export default function CategoryHierarchyGrid() {
                     >
                       <Link
                         to={`/shop?category=${category.slug}&subcategory=${sub.slug}`}
-                        className="inline-block rounded-full border border-brand-gold/25 bg-brand-bg/40 px-3 py-1 text-[10px] uppercase tracking-[0.14em] text-brand-goldLight backdrop-blur-md transition-all duration-300 hover:border-brand-gold hover:shadow-[0_0_18px_rgba(212,175,55,0.25)]"
+                        className="inline-block rounded-full border border-[#D4AF37]/45 bg-[#141311]/70 px-3 py-1 text-[10px] uppercase tracking-[0.14em] text-[#D4AF37] backdrop-blur-md transition-all duration-300 hover:border-[#D4AF37] hover:shadow-[0_0_18px_rgba(var(--brand-gold-rgb),0.25)]"
                       >
                         {sub.label}
                       </Link>

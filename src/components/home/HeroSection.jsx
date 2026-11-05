@@ -29,16 +29,16 @@ export default function HeroSection() {
       <img
         src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1800&q=80"
         alt=""
-        className="absolute inset-0 h-full w-full scale-105 object-cover opacity-35"
+        className="absolute inset-0 h-full w-full scale-105 object-cover opacity-[0.22] dark:opacity-35"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-brand-bg via-brand-bg/90 to-brand-bg/35" />
-      <div className="absolute inset-0 bg-gradient-to-t from-brand-bg via-transparent to-brand-bg/60" />
+      <div className="absolute inset-0 bg-gradient-to-r from-brand-bg via-brand-bg/88 to-transparent dark:via-brand-bg/90 dark:to-brand-bg/35" />
+      <div className="absolute inset-0 bg-gradient-to-t from-brand-bg via-transparent to-brand-bg/40 dark:to-brand-bg/60" />
 
       {/* Right-column 3D showcase */}
       <div className="absolute right-[6%] top-1/2 hidden w-[22rem] -translate-y-1/2 lg:block xl:right-[10%] xl:w-[26rem]">
         <TiltCard3D className="relative h-[28rem]">
           <motion.div
-            className="absolute left-8 top-0 h-72 w-52 overflow-hidden border border-white/10 bg-brand-card shadow-2xl"
+            className="absolute left-8 top-0 h-72 w-52 overflow-hidden border border-brand-border bg-[#EFECE6] shadow-brand ring-1 ring-black/5 dark:bg-[#111318] dark:ring-white/10"
             style={{ rotate: -8 }}
             animate={{ y: [0, -8, 0] }}
             transition={floatTransition(0)}
@@ -48,13 +48,13 @@ export default function HeroSection() {
               alt=""
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brand-bg/90 to-transparent p-3">
-              <p className="text-[10px] uppercase tracking-[0.16em] text-brand-gold">Signed Book</p>
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#141311]/80 to-transparent p-3 dark:from-black/75">
+              <p className="text-[10px] uppercase tracking-[0.16em] text-[#D4AF37]">Signed Book</p>
             </div>
           </motion.div>
 
           <motion.div
-            className="absolute left-20 top-16 h-80 w-56 overflow-hidden border border-brand-gold/30 bg-brand-card shadow-gold-glow"
+            className="absolute left-20 top-16 h-80 w-56 overflow-hidden border border-brand-gold/40 bg-[#EFECE6] shadow-gold-glow ring-1 ring-black/5 dark:bg-[#111318] dark:ring-white/10"
             style={{ rotate: 4 }}
             animate={{ y: [0, -8, 0] }}
             transition={floatTransition(0.6)}
@@ -64,8 +64,8 @@ export default function HeroSection() {
               alt=""
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brand-bg/90 to-transparent p-3">
-              <p className="text-[10px] uppercase tracking-[0.16em] text-brand-gold">450GSM Hoodie</p>
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#141311]/80 to-transparent p-3 dark:from-black/75">
+              <p className="text-[10px] uppercase tracking-[0.16em] text-[#D4AF37]">450GSM Hoodie</p>
             </div>
           </motion.div>
 
@@ -94,7 +94,7 @@ export default function HeroSection() {
           <StaggerItem>
             <div className="glass-panel mb-6 inline-flex w-fit items-center gap-2 px-3 py-1.5">
               <span className="h-1.5 w-1.5 animate-pulse-gold rounded-full bg-brand-gold" />
-              <span className="text-[10px] font-medium uppercase tracking-[0.22em] text-brand-goldLight">
+              <span className="text-[10px] font-medium uppercase tracking-[0.22em] text-brand-gold">
                 Official Mark Steffen Store
               </span>
             </div>
@@ -123,7 +123,7 @@ export default function HeroSection() {
                 <Link
                   key={pill.href}
                   to={pill.href}
-                  className="rounded-full border border-brand-gold/30 bg-brand-bg/30 px-3 py-1 text-[10px] uppercase tracking-[0.14em] text-brand-goldLight backdrop-blur-md transition-all duration-300 hover:border-brand-gold"
+                  className="rounded-full border border-brand-gold/40 bg-white/80 px-3 py-1 text-[10px] uppercase tracking-[0.14em] text-brand-gold shadow-sm backdrop-blur-md transition-all duration-300 hover:border-brand-gold hover:text-brand-goldDark dark:bg-brand-bg/40 dark:hover:text-brand-goldLight"
                 >
                   {pill.label}
                 </Link>

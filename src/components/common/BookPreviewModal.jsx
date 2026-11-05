@@ -84,7 +84,7 @@ export default function BookPreviewModal() {
     <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
       <motion.button
         type="button"
-        className="absolute inset-0 bg-black/75 backdrop-blur-sm"
+        className="modal-backdrop absolute inset-0 backdrop-blur-sm"
         aria-label="Close book preview"
         onClick={closeBookPreview}
         initial={{ opacity: 0 }}
@@ -102,7 +102,7 @@ export default function BookPreviewModal() {
         exit={{ opacity: 0, scale: 0.94, y: 16 }}
         transition={{ duration: 0.32, ease: motionEase }}
       >
-        <div className="flex items-start justify-between gap-4 border-b border-white/10 px-6 py-5">
+        <div className="flex items-start justify-between gap-4 border-b border-brand-border px-6 py-5">
           <div>
             <p className="text-[10px] uppercase tracking-[0.22em] text-brand-gold">
               Literary Preview
@@ -122,7 +122,7 @@ export default function BookPreviewModal() {
         </div>
 
         <div className="grid gap-0 md:grid-cols-[1fr_1.1fr]">
-          <div className="border-b border-white/10 p-6 md:border-r md:border-b-0">
+          <div className="border-b border-brand-border p-6 md:border-r md:border-b-0">
             <p className="text-[11px] font-medium uppercase tracking-[0.16em] text-brand-gold">
               Read Chapter 1
             </p>
@@ -139,7 +139,7 @@ export default function BookPreviewModal() {
               A short atmospheric reading of the opening pages.
             </p>
 
-            <div className="mt-6 rounded-sm border border-white/10 bg-brand-bg/50 p-4">
+            <div className="mt-6 rounded-sm border border-brand-border bg-brand-bg/50 p-4">
               <Waveform playing={playing} progress={progress} />
               <div className="mt-4 flex items-center gap-3">
                 <button

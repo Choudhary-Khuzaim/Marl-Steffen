@@ -344,7 +344,7 @@ export default function ShopPage() {
       </div>
 
       <div
-        className={`fixed inset-0 z-50 bg-black/60 transition-opacity lg:hidden ${
+        className={`modal-backdrop fixed inset-0 z-50 transition-opacity lg:hidden ${
           mobileFiltersOpen ? 'opacity-100' : 'pointer-events-none opacity-0'
         }`}
         onClick={() => setMobileFiltersOpen(false)}

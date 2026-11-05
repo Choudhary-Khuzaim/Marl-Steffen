@@ -104,24 +104,24 @@ export default function ProductCard({ product, onAddToBag }) {
         <div className="relative">
           <Link
             to={`/product/${product.slug}`}
-            className="relative block aspect-[4/5] overflow-hidden bg-brand-surface"
+            className="relative block aspect-[4/5] overflow-hidden bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10"
           >
             <div className="absolute left-3 top-3 z-10 flex flex-col items-start gap-1.5">
               {product.badges?.includes('new') && (
-                <span className="bg-brand-text px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-brand-bg">
+                <span className="border border-black/10 bg-[#141311] px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-[#FAF7F2] shadow-md dark:border-white/20 dark:bg-white dark:text-[#08090C]">
                   New Arrival
                 </span>
               )}
               {isOnSale && (
-                <span className="bg-brand-danger px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-white">
+                <span className="bg-[#DC2626] px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-white shadow-md">
                   Sale
                 </span>
               )}
             </div>
 
-            {isCollector && (
-              <span className="absolute right-3 top-3 z-10 border border-brand-gold/50 bg-brand-bg/80 px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-brand-goldLight backdrop-blur-sm">
-                Collector
+            {(isCollector || product.badges?.includes('signed')) && (
+              <span className="absolute right-3 top-3 z-10 border border-[#D4AF37] bg-[#141311]/90 px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-[#D4AF37] shadow-md backdrop-blur-md">
+                {product.badges?.includes('signed') && !isCollector ? 'Signed' : 'Collector'}
               </span>
             )}
 
@@ -154,11 +154,6 @@ export default function ProductCard({ product, onAddToBag }) {
                 )}
               </>
             )}
-
-            <div
-              className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#08090C]/85 via-transparent to-black/30"
-              aria-hidden="true"
-            />
           </Link>
 
           <div className="absolute right-3 top-12 z-30 flex flex-col gap-2 opacity-0 transition-all duration-300 group-hover:opacity-100">
@@ -167,20 +162,20 @@ export default function ProductCard({ product, onAddToBag }) {
               whileTap={{ scale: 0.96 }}
               onClick={() => toggleWishlistItem(product)}
               className={[
-                'inline-flex h-9 w-9 items-center justify-center border backdrop-blur-md transition-all duration-300',
+                'inline-flex h-9 w-9 items-center justify-center border shadow-md backdrop-blur-md transition-all duration-300',
                 wished
-                  ? 'border-brand-gold bg-brand-gold/15 text-brand-gold'
-                  : 'border-white/15 bg-brand-bg/70 text-brand-text hover:border-brand-gold/50',
+                  ? 'border-[#D4AF37] bg-[#141311]/90 text-[#D4AF37]'
+                  : 'border-black/10 bg-white/90 text-[#141311] hover:bg-[#9A7B2C] hover:text-white dark:border-white/15 dark:bg-[#08090C]/85 dark:text-white dark:hover:bg-[#D4AF37] dark:hover:text-[#08090C]',
               ].join(' ')}
               aria-label={wished ? 'Remove from wishlist' : 'Add to wishlist'}
             >
-              <Heart size={15} className={wished ? 'fill-brand-gold' : ''} />
+              <Heart size={15} className={wished ? 'fill-[#D4AF37]' : ''} />
             </motion.button>
             <motion.button
               type="button"
               whileTap={{ scale: 0.96 }}
               onClick={() => openQuickView(product)}
-              className="inline-flex h-9 w-9 items-center justify-center border border-white/15 bg-brand-bg/70 text-brand-text backdrop-blur-md transition-all duration-300 hover:border-brand-gold/50"
+              className="inline-flex h-9 w-9 items-center justify-center border border-black/10 bg-white/90 text-[#141311] shadow-md backdrop-blur-md transition-all duration-300 hover:bg-[#9A7B2C] hover:text-white dark:border-white/15 dark:bg-[#08090C]/85 dark:text-white dark:hover:bg-[#D4AF37] dark:hover:text-[#08090C]"
               aria-label="Quick view"
             >
               <Eye size={15} />
@@ -191,7 +186,7 @@ export default function ProductCard({ product, onAddToBag }) {
             <button
               type="button"
               onClick={() => openBookPreview(product)}
-              className="absolute bottom-14 left-3 z-30 inline-flex items-center gap-1.5 border border-brand-gold/40 bg-brand-bg/80 px-2.5 py-1 text-[10px] uppercase tracking-[0.14em] text-brand-goldLight opacity-0 backdrop-blur-md transition-all duration-300 group-hover:opacity-100"
+              className="absolute bottom-14 left-3 z-30 inline-flex items-center gap-1.5 border border-[#D4AF37] bg-[#141311]/90 px-2.5 py-1 text-[10px] uppercase tracking-[0.14em] text-[#D4AF37] opacity-0 shadow-md backdrop-blur-md transition-all duration-300 group-hover:opacity-100"
             >
               <BookOpen size={12} />
               Preview
