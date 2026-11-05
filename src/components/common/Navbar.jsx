@@ -71,11 +71,12 @@ export default function Navbar() {
     <>
       <header className="sticky top-0 z-40 border-b border-brand-border glass-header">
         <div className="relative" onMouseLeave={() => setMegaOpen(false)}>
-          <nav className="relative mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 lg:px-6">
-            <div className="flex min-w-0 flex-1 items-center gap-2">
+          <nav className="mx-auto grid max-w-7xl grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 px-3 py-3 sm:gap-3 sm:px-4 lg:grid-cols-[1fr_auto_1fr] lg:gap-4 lg:px-6 lg:py-3.5">
+            {/* Left: hamburger (mobile) / desktop links */}
+            <div className="flex items-center justify-start">
               <button
                 type="button"
-                className="inline-flex h-10 w-10 items-center justify-center text-brand-text lg:hidden"
+                className="inline-flex h-10 w-10 shrink-0 items-center justify-center text-brand-text lg:hidden"
                 aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
                 aria-expanded={mobileOpen}
                 aria-controls={drawerId}
@@ -119,45 +120,51 @@ export default function Navbar() {
               </ul>
             </div>
 
+            {/* Center: brand — flows in grid, no absolute overlap */}
             <Link
               to="/"
-              className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
+              className="min-w-0 justify-self-center px-1 text-center lg:px-4"
               onClick={closeMobile}
             >
-              <span className="font-serif text-sm font-semibold tracking-[0.28em] text-brand-text sm:text-base">
+              <span className="font-serif block truncate text-[11px] font-semibold tracking-[0.14em] text-brand-text sm:text-sm sm:tracking-[0.22em] lg:text-base lg:tracking-[0.28em]">
                 MARK STEFFEN
               </span>
-              <span className="mt-0.5 block text-[9px] font-medium tracking-[0.28em] text-brand-gold uppercase">
+              <span className="mt-0.5 block truncate text-[8px] font-medium tracking-[0.18em] text-brand-gold uppercase sm:text-[9px] sm:tracking-[0.24em] lg:tracking-[0.28em]">
                 Official Store
               </span>
             </Link>
 
-            <div className="flex flex-1 items-center justify-end gap-1 sm:gap-2">
-              <ThemeToggle />
+            {/* Right: actions — compact on mobile */}
+            <div className="flex items-center justify-end gap-0.5 sm:gap-1 lg:gap-2">
+              <div className="hidden sm:block">
+                <ThemeToggle />
+              </div>
               <button
                 type="button"
-                className="inline-flex h-10 w-10 items-center justify-center text-brand-text transition-colors duration-300 hover:text-brand-gold"
+                className="inline-flex h-9 w-9 items-center justify-center text-brand-text transition-colors duration-300 hover:text-brand-gold sm:h-10 sm:w-10"
                 aria-label="Search"
                 onClick={() => setSearchOpen(true)}
               >
-                <Search size={20} strokeWidth={1.75} />
+                <Search size={18} strokeWidth={1.75} className="sm:hidden" />
+                <Search size={20} strokeWidth={1.75} className="hidden sm:block" />
               </button>
               <button
                 type="button"
                 onClick={openWishlist}
-                className="relative inline-flex h-10 w-10 items-center justify-center text-brand-text transition-colors duration-300 hover:text-brand-gold"
+                className="relative inline-flex h-9 w-9 items-center justify-center text-brand-text transition-colors duration-300 hover:text-brand-gold sm:h-10 sm:w-10"
                 aria-label={`Wishlist${wishlistCount > 0 ? `, ${wishlistCount} items` : ''}`}
               >
-                <Heart size={20} strokeWidth={1.75} />
+                <Heart size={18} strokeWidth={1.75} className="sm:hidden" />
+                <Heart size={20} strokeWidth={1.75} className="hidden sm:block" />
                 {wishlistCount > 0 && (
-                  <span className="absolute right-1 top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-gold-gradient px-1 text-[10px] font-semibold leading-none text-brand-bg">
+                  <span className="absolute right-0.5 top-0.5 flex h-3.5 min-w-3.5 items-center justify-center rounded-full bg-gold-gradient px-1 text-[9px] font-semibold leading-none text-brand-bg sm:right-1 sm:top-1 sm:h-4 sm:min-w-4 sm:text-[10px]">
                     {wishlistCount > 99 ? '99+' : wishlistCount}
                   </span>
                 )}
               </button>
               <Link
                 to="/account"
-                className="hidden h-10 w-10 items-center justify-center text-brand-text transition-colors duration-300 hover:text-brand-gold sm:inline-flex"
+                className="hidden h-10 w-10 items-center justify-center text-brand-text transition-colors duration-300 hover:text-brand-gold md:inline-flex"
                 aria-label="Account"
               >
                 <User size={20} strokeWidth={1.75} />
@@ -165,12 +172,13 @@ export default function Navbar() {
               <button
                 type="button"
                 onClick={openCart}
-                className="relative inline-flex h-10 w-10 items-center justify-center text-brand-text transition-colors duration-300 hover:text-brand-gold"
+                className="relative inline-flex h-9 w-9 items-center justify-center text-brand-text transition-colors duration-300 hover:text-brand-gold sm:h-10 sm:w-10"
                 aria-label={`Shopping bag${cartItemCount > 0 ? `, ${cartItemCount} items` : ''}`}
               >
-                <ShoppingBag size={20} strokeWidth={1.75} />
+                <ShoppingBag size={18} strokeWidth={1.75} className="sm:hidden" />
+                <ShoppingBag size={20} strokeWidth={1.75} className="hidden sm:block" />
                 {cartItemCount > 0 && (
-                  <span className="absolute right-1 top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-gold-gradient px-1 text-[10px] font-semibold leading-none text-brand-bg">
+                  <span className="absolute right-0.5 top-0.5 flex h-3.5 min-w-3.5 items-center justify-center rounded-full bg-gold-gradient px-1 text-[9px] font-semibold leading-none text-brand-bg sm:right-1 sm:top-1 sm:h-4 sm:min-w-4 sm:text-[10px]">
                     {cartItemCount > 99 ? '99+' : cartItemCount}
                   </span>
                 )}
@@ -198,14 +206,17 @@ export default function Navbar() {
         >
           <div className="flex items-center justify-between border-b border-brand-border px-4 py-3">
             <span className="font-serif text-sm tracking-[0.2em] text-brand-gold">MENU</span>
-            <button
-              type="button"
-              className="inline-flex h-10 w-10 items-center justify-center text-brand-text"
-              aria-label="Close menu"
-              onClick={closeMobile}
-            >
-              <X size={22} strokeWidth={1.75} />
-            </button>
+            <div className="flex items-center gap-1">
+              <ThemeToggle />
+              <button
+                type="button"
+                className="inline-flex h-10 w-10 items-center justify-center text-brand-text"
+                aria-label="Close menu"
+                onClick={closeMobile}
+              >
+                <X size={22} strokeWidth={1.75} />
+              </button>
+            </div>
           </div>
 
           <div className="flex-1 overflow-y-auto px-4 py-4">
@@ -279,6 +290,15 @@ export default function Navbar() {
                   </Link>
                 </li>
               ))}
+              <li className="border-t border-brand-border pt-2">
+                <Link
+                  to="/account"
+                  onClick={closeMobile}
+                  className="block px-2 py-3 text-sm tracking-wide text-brand-text"
+                >
+                  Account
+                </Link>
+              </li>
             </ul>
           </div>
         </aside>
