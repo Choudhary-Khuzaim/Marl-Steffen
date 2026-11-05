@@ -1,0 +1,167 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --color-brand-bg: #08090c;
+  --color-brand-surface: #111318;
+  --color-brand-card: #171a21;
+  --color-brand-cardHover: #1e222b;
+  --color-brand-border: #262a34;
+  --color-brand-gold: #d4af37;
+  --color-brand-goldLight: #f3e5ab;
+  --color-brand-goldDark: #aa820a;
+  --color-brand-text: #f5f5f7;
+  --color-brand-muted: #949ba6;
+  --color-brand-danger: #ef4444;
+  --color-brand-success: #10b981;
+
+  --font-serif: Cinzel, "Cormorant Garamond", serif;
+  --font-sans: "Plus Jakarta Sans", Inter, sans-serif;
+
+  --animate-marquee: marquee 28s linear infinite;
+  --animate-pulse-gold: pulse-gold 2.4s ease-in-out infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes pulse-gold {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.45);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(212, 175, 55, 0);
+    transform: scale(1.05);
+  }
+}
+
+@keyframes shimmer-sweep {
+  0% {
+    transform: translateX(-120%) skewX(-18deg);
+  }
+  100% {
+    transform: translateX(220%) skewX(-18deg);
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-brand-bg text-brand-text font-sans antialiased;
+  }
+
+  ::selection {
+    background-color: var(--color-brand-gold);
+    color: #08090c;
+  }
+
+  /* Custom gold scrollbar — obsidian track */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #d4af37 #08090c;
+  }
+
+  *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #08090c;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #f3e5ab, #d4af37, #aa820a);
+    border-radius: 999px;
+    border: 1px solid #08090c;
+  }
+}
+
+@layer utilities {
+  .text-gold-gradient {
+    background-image: linear-gradient(to right, #f3e5ab, #d4af37, #aa820a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .bg-gold-gradient {
+    background-image: linear-gradient(to right, #d4af37, #f3e5ab, #aa820a);
+  }
+
+  .glass-header {
+    background-color: rgb(8 9 12 / 0.85);
+    backdrop-filter: blur(24px);
+  }
+
+  .glass-panel {
+    background-color: rgb(18 21 28 / 0.8);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgb(255 255 255 / 0.1);
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.55);
+  }
+
+  .btn-gold-shimmer {
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(120deg, #aa820a, #d4af37, #f3e5ab, #d4af37, #aa820a);
+    background-size: 200% 100%;
+    color: #08090c;
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.28);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  .btn-gold-shimmer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      100deg,
+      transparent 20%,
+      rgba(255, 255, 255, 0.45) 50%,
+      transparent 80%
+    );
+    transform: translateX(-120%) skewX(-18deg);
+    pointer-events: none;
+  }
+
+  .btn-gold-shimmer:hover {
+    box-shadow: 0 0 36px rgba(212, 175, 55, 0.42);
+  }
+
+  .btn-gold-shimmer:hover::after {
+    animation: shimmer-sweep 0.9s ease;
+  }
+
+  .animate-marquee {
+    animation: marquee 28s linear infinite;
+  }
+
+  .animate-pulse-gold {
+    animation: pulse-gold 2.4s ease-in-out infinite;
+  }
+
+  .bg-ambient-spotlight {
+    background:
+      radial-gradient(ellipse 60% 50% at 20% 10%, rgba(212, 175, 55, 0.12), transparent 55%),
+      radial-gradient(ellipse 50% 40% at 85% 20%, rgba(243, 229, 171, 0.06), transparent 50%),
+      #08090c;
+  }
+
+  .bg-ambient-noise {
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.035) 1px, transparent 0);
+    background-size: 18px 18px;
+  }
+}

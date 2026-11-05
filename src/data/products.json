@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "book-obsidian-ledger",
+    "slug": "the-obsidian-ledger",
+    "name": "The Obsidian Ledger",
+    "category": "books",
+    "subcategory": "novels",
+    "type": "book",
+    "subtitle": "A Mark Steffen literary thriller",
+    "collection": "Mark Steffen Library",
+    "artist": null,
+    "description": "A high-stakes literary thriller following a disgraced archivist who uncovers a century of buried ledgers\u2014and the dynasty that will kill to keep them closed.",
+    "price": 28.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=85",
+        "alt": "The Obsidian Ledger cover"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
+        "alt": "Obsidian Ledger pages"
+      }
+    ],
+    "badges": [
+      "new"
+    ],
+    "tags": [
+      "thriller",
+      "novel",
+      "bestseller"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 120,
+    "rating": 4.9,
+    "createdAt": "2025-10-01",
+    "specs": {
+      "format": "Trade Hardcover",
+      "isbn": "978-1-990001-01-1",
+      "pages": 424,
+      "language": "English",
+      "publisher": "Steffen Press"
+    },
+    "options": {
+      "formats": [
+        {
+          "id": "hardcover",
+          "label": "Trade Hardcover",
+          "price": 28.0,
+          "inStock": true
+        },
+        {
+          "id": "paperback",
+          "label": "Paperback",
+          "price": 18.0,
+          "inStock": true
+        },
+        {
+          "id": "ebook",
+          "label": "Digital Edition",
+          "price": 12.0,
+          "inStock": true
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "book-night-correspondence",
+    "slug": "night-correspondence",
+    "name": "Night Correspondence",
+    "category": "books",
+    "subcategory": "signed-editions",
+    "type": "book",
+    "subtitle": "Hand-signed first printing",
+    "collection": "Signed Collection",
+    "artist": null,
+    "description": "An epistolary novel of midnight letters between two rivals. Each copy includes an author-signed plate and numbered colophon.",
+    "price": 48.0,
+    "compareAtPrice": 54.0,
+    "primaryImage": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
+        "alt": "Night Correspondence signed edition"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
+        "alt": "Signed bookplate detail"
+      }
+    ],
+    "badges": [
+      "sale",
+      "collector"
+    ],
+    "tags": [
+      "signed",
+      "limited"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 64,
+    "rating": 4.8,
+    "createdAt": "2025-08-12",
+    "specs": {
+      "format": "Signed Hardcover",
+      "isbn": "978-1-990001-02-8",
+      "pages": 368,
+      "language": "English",
+      "publisher": "Steffen Press"
+    },
+    "options": {
+      "formats": [
+        {
+          "id": "signed-hardcover",
+          "label": "Signed Hardcover",
+          "price": 48.0,
+          "compareAtPrice": 54.0,
+          "inStock": true
+        },
+        {
+          "id": "signed-bookplate",
+          "label": "Signed Bookplate Edition",
+          "price": 58.0,
+          "inStock": true
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "book-gilded-archives",
+    "slug": "the-gilded-archives",
+    "name": "The Gilded Archives",
+    "category": "books",
+    "subcategory": "special-editions",
+    "type": "book",
+    "subtitle": "Clothbound collector edition",
+    "collection": "Collector Vault",
+    "artist": "Cass Townsend",
+    "description": "Clothbound with champagne foil stamping, ribbon marker, and illustrated endpapers by Cass Townsend.",
+    "price": 72.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1507842229356-51c61504d3ab?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilded Archives clothbound"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1507842229356-51c61504d3ab?auto=format&fit=crop&w=900&q=85",
+        "alt": "Collector edition open"
+      }
+    ],
+    "badges": [
+      "collector",
+      "new"
+    ],
+    "tags": [
+      "foil",
+      "clothbound"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 40,
+    "rating": 5.0,
+    "createdAt": "2025-11-01",
+    "specs": {
+      "format": "Clothbound Special Edition",
+      "isbn": "978-1-990001-03-5",
+      "pages": 512,
+      "language": "English",
+      "publisher": "Steffen Press"
+    },
+    "options": {
+      "formats": [
+        {
+          "id": "clothbound",
+          "label": "Clothbound Special Edition",
+          "price": 72.0,
+          "inStock": true
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "book-midnight-essays",
+    "slug": "midnight-essays",
+    "name": "Midnight Essays",
+    "category": "books",
+    "subcategory": "anthologies",
+    "type": "book",
+    "subtitle": "Selected essays & short fiction",
+    "collection": "Mark Steffen Library",
+    "artist": null,
+    "description": "Twelve essays on craft, ambition, and the quiet violence of unfinished stories.",
+    "price": 22.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
+        "alt": "Midnight Essays cover"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
+        "alt": "Essay anthology pages"
+      }
+    ],
+    "badges": [],
+    "tags": [
+      "essays",
+      "anthology"
+    ],
+    "featured": false,
+    "inStock": true,
+    "inventory": 200,
+    "rating": 4.6,
+    "createdAt": "2025-05-20",
+    "specs": {
+      "format": "Trade Paperback",
+      "isbn": "978-1-990001-04-2",
+      "pages": 256,
+      "language": "English",
+      "publisher": "Steffen Press"
+    },
+    "options": {
+      "formats": [
+        {
+          "id": "paperback",
+          "label": "Trade Paperback",
+          "price": 22.0,
+          "inStock": true
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "book-sovereign-house",
+    "slug": "sovereign-house",
+    "name": "Sovereign House",
+    "category": "books",
+    "subcategory": "novels",
+    "type": "book",
+    "subtitle": "Dynasty noir novel",
+    "collection": "Mark Steffen Library",
+    "artist": null,
+    "description": "Three generations of a banking dynasty collide when a forged will resurfaces in a locked estate vault.",
+    "price": 26.0,
+    "compareAtPrice": 30.0,
+    "primaryImage": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
+        "alt": "Sovereign House cover"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=85",
+        "alt": "Sovereign House alternate"
+      }
+    ],
+    "badges": [
+      "sale"
+    ],
+    "tags": [
+      "noir",
+      "dynasty"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 88,
+    "rating": 4.7,
+    "createdAt": "2025-03-10",
+    "specs": {
+      "format": "Hardcover",
+      "isbn": "978-1-990001-05-9",
+      "pages": 448,
+      "language": "English",
+      "publisher": "Steffen Press"
+    },
+    "options": {
+      "formats": [
+        {
+          "id": "hardcover",
+          "label": "Hardcover",
+          "price": 26.0,
+          "compareAtPrice": 30.0,
+          "inStock": true
+        },
+        {
+          "id": "paperback",
+          "label": "Paperback",
+          "price": 16.0,
+          "inStock": true
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "book-folio-omnibus",
+    "slug": "steffen-folio-omnibus",
+    "name": "Steffen Folio Omnibus",
+    "category": "books",
+    "subcategory": "special-editions",
+    "type": "book",
+    "subtitle": "Three-novel slipcase set",
+    "collection": "Collector Vault",
+    "artist": "Nguyet Minh Coleman",
+    "description": "A slipcased omnibus of three Mark Steffen novels with exclusive cover art and annotation booklet.",
+    "price": 120.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1507842229356-51c61504d3ab?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1507842229356-51c61504d3ab?auto=format&fit=crop&w=900&q=85",
+        "alt": "Steffen Folio Omnibus"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
+        "alt": "Slipcase detail"
+      }
+    ],
+    "badges": [
+      "collector"
+    ],
+    "tags": [
+      "omnibus",
+      "slipcase"
+    ],
+    "featured": false,
+    "inStock": true,
+    "inventory": 28,
+    "rating": 4.9,
+    "createdAt": "2025-09-15",
+    "specs": {
+      "format": "Slipcase Omnibus",
+      "isbn": "978-1-990001-06-6",
+      "pages": 1180,
+      "language": "English",
+      "publisher": "Steffen Press"
+    },
+    "options": {
+      "formats": [
+        {
+          "id": "slipcase",
+          "label": "Slipcase Omnibus",
+          "price": 120.0,
+          "inStock": true
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "merch-crest-tee",
+    "slug": "ms-crest-tee",
+    "name": "MS Crest Tee",
+    "category": "merchandise",
+    "subcategory": "apparel",
+    "type": "apparel",
+    "subtitle": "Heavyweight cotton crest tee",
+    "collection": "House Crest",
+    "artist": "Cass Townsend",
+    "description": "Garment-dyed heavyweight tee with embroidered Mark Steffen crest.",
+    "price": 42.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
+        "alt": "MS Crest Tee"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
+        "alt": "Crest embroidery"
+      }
+    ],
+    "badges": [
+      "new"
+    ],
+    "tags": [
+      "tee",
+      "crest"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": null,
+    "rating": 4.7,
+    "createdAt": "2025-10-20",
+    "specs": {
+      "material": "100% combed cotton",
+      "fit": "Unisex relaxed"
+    },
+    "options": {
+      "colors": [
+        {
+          "id": "obsidian",
+          "label": "Obsidian",
+          "hex": "#121212",
+          "swatch": "#121212",
+          "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "ivory",
+          "label": "Ivory",
+          "hex": "#F5F5F7",
+          "swatch": "#F5F5F7",
+          "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "champagne",
+          "label": "Champagne",
+          "hex": "#D4AF37",
+          "swatch": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85"
+        }
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    "variants": [
+      {
+        "id": "crest-obs-s",
+        "color": "obsidian",
+        "size": "S",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 20
+      },
+      {
+        "id": "crest-obs-m",
+        "color": "obsidian",
+        "size": "M",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 34
+      },
+      {
+        "id": "crest-obs-l",
+        "color": "obsidian",
+        "size": "L",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 28
+      },
+      {
+        "id": "crest-obs-xl",
+        "color": "obsidian",
+        "size": "XL",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 16
+      },
+      {
+        "id": "crest-obs-xs",
+        "color": "obsidian",
+        "size": "XS",
+        "price": 42.0,
+        "inStock": false,
+        "inventory": 0
+      },
+      {
+        "id": "crest-obs-2xl",
+        "color": "obsidian",
+        "size": "2XL",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 10
+      },
+      {
+        "id": "crest-ivy-m",
+        "color": "ivory",
+        "size": "M",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 22
+      },
+      {
+        "id": "crest-ivy-l",
+        "color": "ivory",
+        "size": "L",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 18
+      },
+      {
+        "id": "crest-ivy-s",
+        "color": "ivory",
+        "size": "S",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 12
+      },
+      {
+        "id": "crest-ivy-xl",
+        "color": "ivory",
+        "size": "XL",
+        "price": 42.0,
+        "inStock": false,
+        "inventory": 0
+      },
+      {
+        "id": "crest-ivy-xs",
+        "color": "ivory",
+        "size": "XS",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 8
+      },
+      {
+        "id": "crest-ivy-2xl",
+        "color": "ivory",
+        "size": "2XL",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 7
+      },
+      {
+        "id": "crest-chm-m",
+        "color": "champagne",
+        "size": "M",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 14
+      },
+      {
+        "id": "crest-chm-l",
+        "color": "champagne",
+        "size": "L",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 11
+      },
+      {
+        "id": "crest-chm-s",
+        "color": "champagne",
+        "size": "S",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 9
+      },
+      {
+        "id": "crest-chm-xl",
+        "color": "champagne",
+        "size": "XL",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 6
+      },
+      {
+        "id": "crest-chm-xs",
+        "color": "champagne",
+        "size": "XS",
+        "price": 42.0,
+        "inStock": false,
+        "inventory": 0
+      },
+      {
+        "id": "crest-chm-2xl",
+        "color": "champagne",
+        "size": "2XL",
+        "price": 42.0,
+        "inStock": true,
+        "inventory": 5
+      }
+    ]
+  },
+  {
+    "id": "merch-noir-hoodie",
+    "slug": "noir-script-hoodie",
+    "name": "Noir Script Hoodie",
+    "category": "merchandise",
+    "subcategory": "apparel",
+    "type": "apparel",
+    "subtitle": "Fleece hoodie with gold script",
+    "collection": "House Crest",
+    "artist": "Sparrow & Wilde",
+    "description": "Heavyweight fleece with champagne-gold embroidered signature script across the chest.",
+    "price": 78.0,
+    "compareAtPrice": 88.0,
+    "primaryImage": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
+        "alt": "Noir Script Hoodie"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
+        "alt": "Hoodie detail"
+      }
+    ],
+    "badges": [
+      "sale",
+      "collector"
+    ],
+    "tags": [
+      "hoodie",
+      "fleece"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 45,
+    "rating": 4.8,
+    "createdAt": "2025-07-18",
+    "specs": {
+      "material": "80/20 cotton-poly fleece",
+      "fit": "Unisex relaxed"
+    },
+    "options": {
+      "colors": [
+        {
+          "id": "ink",
+          "label": "Ink",
+          "hex": "#0B0C10",
+          "swatch": "#0B0C10",
+          "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "slate",
+          "label": "Slate",
+          "hex": "#3A3F4B",
+          "swatch": "#3A3F4B",
+          "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ]
+    },
+    "variants": [
+      {
+        "id": "hoodie-ink-s",
+        "color": "ink",
+        "size": "S",
+        "price": 78.0,
+        "inStock": true,
+        "inventory": 10
+      },
+      {
+        "id": "hoodie-ink-m",
+        "color": "ink",
+        "size": "M",
+        "price": 78.0,
+        "inStock": true,
+        "inventory": 18
+      },
+      {
+        "id": "hoodie-ink-l",
+        "color": "ink",
+        "size": "L",
+        "price": 78.0,
+        "inStock": true,
+        "inventory": 14
+      },
+      {
+        "id": "hoodie-ink-xl",
+        "color": "ink",
+        "size": "XL",
+        "price": 78.0,
+        "inStock": true,
+        "inventory": 9
+      },
+      {
+        "id": "hoodie-ink-2xl",
+        "color": "ink",
+        "size": "2XL",
+        "price": 78.0,
+        "inStock": false,
+        "inventory": 0
+      },
+      {
+        "id": "hoodie-slt-s",
+        "color": "slate",
+        "size": "S",
+        "price": 78.0,
+        "inStock": true,
+        "inventory": 8
+      },
+      {
+        "id": "hoodie-slt-m",
+        "color": "slate",
+        "size": "M",
+        "price": 78.0,
+        "inStock": true,
+        "inventory": 12
+      },
+      {
+        "id": "hoodie-slt-l",
+        "color": "slate",
+        "size": "L",
+        "price": 78.0,
+        "inStock": true,
+        "inventory": 11
+      },
+      {
+        "id": "hoodie-slt-xl",
+        "color": "slate",
+        "size": "XL",
+        "price": 78.0,
+        "inStock": true,
+        "inventory": 7
+      },
+      {
+        "id": "hoodie-slt-2xl",
+        "color": "slate",
+        "size": "2XL",
+        "price": 78.0,
+        "inStock": true,
+        "inventory": 5
+      }
+    ]
+  },
+  {
+    "id": "merch-ember-mug",
+    "slug": "ember-gilt-mug",
+    "name": "Ember Gilt Travel Mug",
+    "category": "merchandise",
+    "subcategory": "drinkware",
+    "type": "merchandise",
+    "subtitle": "16oz double-wall enamel",
+    "collection": "Reading Ritual",
+    "artist": "Nguyet Minh Coleman",
+    "description": "Matte enamel mug with gilt rim and etched Mark Steffen quote.",
+    "price": 32.0,
+    "compareAtPrice": 36.0,
+    "primaryImage": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+        "alt": "Ember Gilt Travel Mug"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85",
+        "alt": "Mug etch detail"
+      }
+    ],
+    "badges": [
+      "sale"
+    ],
+    "tags": [
+      "mug",
+      "drinkware"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 150,
+    "rating": 4.5,
+    "createdAt": "2025-06-01",
+    "specs": {
+      "material": "Enamel steel",
+      "capacity": "16 oz"
+    },
+    "options": {
+      "colors": [
+        {
+          "id": "matte-black",
+          "label": "Matte Black",
+          "hex": "#111318",
+          "swatch": "#111318",
+          "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "gilt",
+          "label": "Gilt Ember",
+          "hex": "#D4AF37",
+          "swatch": "#D4AF37",
+          "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85"
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "merch-crest-cap",
+    "slug": "gilt-crest-cap",
+    "name": "Gilt Crest Cap",
+    "category": "merchandise",
+    "subcategory": "accessories",
+    "type": "merchandise",
+    "subtitle": "Structured wool-blend cap",
+    "collection": "House Crest",
+    "artist": "Cass Townsend",
+    "description": "Structured cap with metallic crest embroidery and tonal underbill.",
+    "price": 36.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilt Crest Cap"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
+        "alt": "Cap side view"
+      }
+    ],
+    "badges": [
+      "new"
+    ],
+    "tags": [
+      "hat",
+      "cap"
+    ],
+    "featured": false,
+    "inStock": true,
+    "inventory": 90,
+    "rating": 4.4,
+    "createdAt": "2025-10-05",
+    "specs": {
+      "material": "Wool blend",
+      "fit": "One size adjustable"
+    },
+    "options": {
+      "colors": [
+        {
+          "id": "obsidian",
+          "label": "Obsidian",
+          "hex": "#121212",
+          "swatch": "#121212",
+          "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "forest",
+          "label": "Forest",
+          "hex": "#1F3A2E",
+          "swatch": "#1F3A2E",
+          "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85"
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "merch-sticker-pack",
+    "slug": "vault-sticker-pack",
+    "name": "Vault Sticker Pack",
+    "category": "merchandise",
+    "subcategory": "stickers",
+    "type": "merchandise",
+    "subtitle": "Eight weatherproof vinyl stickers",
+    "collection": "Fandom Pack",
+    "artist": "Sparrow & Wilde",
+    "description": "A set of eight weatherproof vinyl stickers featuring crests, quotes, and vault motifs.",
+    "price": 14.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
+        "alt": "Vault Sticker Pack"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85",
+        "alt": "Sticker sheet"
+      }
+    ],
+    "badges": [
+      "new"
+    ],
+    "tags": [
+      "stickers",
+      "vinyl"
+    ],
+    "featured": false,
+    "inStock": true,
+    "inventory": 300,
+    "rating": 4.3,
+    "createdAt": "2025-10-28",
+    "specs": {
+      "material": "Weatherproof vinyl",
+      "count": 8
+    },
+    "options": {},
+    "variants": []
+  },
+  {
+    "id": "merch-canvas-tote",
+    "slug": "ledger-canvas-tote",
+    "name": "Ledger Canvas Tote",
+    "category": "merchandise",
+    "subcategory": "accessories",
+    "type": "merchandise",
+    "subtitle": "Heavyweight market tote",
+    "collection": "Reading Ritual",
+    "artist": "Sparrow & Wilde",
+    "description": "12oz canvas tote with letterpress-inspired Mark Steffen typography.",
+    "price": 28.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85",
+        "alt": "Ledger Canvas Tote"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+        "alt": "Tote alternate"
+      }
+    ],
+    "badges": [],
+    "tags": [
+      "tote",
+      "bag"
+    ],
+    "featured": false,
+    "inStock": false,
+    "inventory": 0,
+    "rating": 4.2,
+    "createdAt": "2025-02-14",
+    "specs": {
+      "material": "12 oz cotton canvas",
+      "dimensions": "15 x 16 in"
+    },
+    "options": {
+      "colors": [
+        {
+          "id": "natural",
+          "label": "Natural",
+          "hex": "#E8DFD0",
+          "swatch": "#E8DFD0",
+          "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "black",
+          "label": "Black",
+          "hex": "#121212",
+          "swatch": "#121212",
+          "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85"
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "prod-leather-journal",
+    "slug": "obsidian-leather-journal",
+    "name": "Obsidian Leather Journal",
+    "category": "products",
+    "subcategory": "stationery",
+    "type": "product",
+    "subtitle": "Hand-bound A5 notebook",
+    "collection": "Executive Desk",
+    "artist": null,
+    "description": "Full-grain leather journal with gilt-edge pages and a magnetic closure strap.",
+    "price": 64.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85",
+        "alt": "Obsidian Leather Journal"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85",
+        "alt": "Journal open pages"
+      }
+    ],
+    "badges": [
+      "collector",
+      "new"
+    ],
+    "tags": [
+      "journal",
+      "leather"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 70,
+    "rating": 4.9,
+    "createdAt": "2025-09-01",
+    "specs": {
+      "size": "A5",
+      "pages": 192,
+      "paper": "100gsm cream",
+      "closure": "Magnetic strap"
+    },
+    "options": {
+      "colors": [
+        {
+          "id": "obsidian",
+          "label": "Obsidian",
+          "hex": "#111318",
+          "swatch": "#111318",
+          "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "cognac",
+          "label": "Cognac",
+          "hex": "#8B5A2B",
+          "swatch": "#8B5A2B",
+          "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85"
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "prod-fountain-pen",
+    "slug": "gilt-nib-fountain-pen",
+    "name": "Gilt Nib Fountain Pen",
+    "category": "products",
+    "subcategory": "stationery",
+    "type": "product",
+    "subtitle": "Brushed brass & resin",
+    "collection": "Executive Desk",
+    "artist": null,
+    "description": "Balanced fountain pen with a medium gilt nib and Mark Steffen engraved barrel.",
+    "price": 95.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilt Nib Fountain Pen"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85",
+        "alt": "Pen writing detail"
+      }
+    ],
+    "badges": [
+      "collector"
+    ],
+    "tags": [
+      "pen",
+      "writing"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 55,
+    "rating": 4.8,
+    "createdAt": "2025-08-01",
+    "specs": {
+      "nib": "Medium gilt",
+      "fill": "Cartridge / converter",
+      "body": "Resin & brass"
+    },
+    "options": {},
+    "variants": []
+  },
+  {
+    "id": "prod-desk-blotter",
+    "slug": "executive-desk-blotter",
+    "name": "Executive Desk Blotter",
+    "category": "products",
+    "subcategory": "desk",
+    "type": "product",
+    "subtitle": "Leather-edged writing mat",
+    "collection": "Executive Desk",
+    "artist": null,
+    "description": "Large desk blotter with leather corners and replaceable writing pad inserts.",
+    "price": 58.0,
+    "compareAtPrice": 65.0,
+    "primaryImage": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
+        "alt": "Executive Desk Blotter"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
+        "alt": "Desk setup"
+      }
+    ],
+    "badges": [
+      "sale"
+    ],
+    "tags": [
+      "desk",
+      "blotter"
+    ],
+    "featured": false,
+    "inStock": true,
+    "inventory": 40,
+    "rating": 4.5,
+    "createdAt": "2025-04-22",
+    "specs": {
+      "dimensions": "24 x 17 in",
+      "material": "Leather & board"
+    },
+    "options": {
+      "colors": [
+        {
+          "id": "black",
+          "label": "Black",
+          "hex": "#171A21",
+          "swatch": "#171A21",
+          "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "burgundy",
+          "label": "Burgundy",
+          "hex": "#4A1C2A",
+          "swatch": "#4A1C2A",
+          "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85"
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "prod-folio",
+    "slug": "voyage-leather-folio",
+    "name": "Voyage Leather Folio",
+    "category": "products",
+    "subcategory": "leather-goods",
+    "type": "product",
+    "subtitle": "Document folio with brass clasp",
+    "collection": "Travel Cabinet",
+    "artist": null,
+    "description": "Slim leather folio for manuscripts, contracts, and travel documents.",
+    "price": 110.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
+        "alt": "Voyage Leather Folio"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85",
+        "alt": "Folio interior"
+      }
+    ],
+    "badges": [
+      "collector"
+    ],
+    "tags": [
+      "leather",
+      "folio",
+      "travel"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 32,
+    "rating": 4.9,
+    "createdAt": "2025-07-01",
+    "specs": {
+      "material": "Full-grain leather",
+      "fits": "A4 / Letter",
+      "closure": "Brass clasp"
+    },
+    "options": {
+      "colors": [
+        {
+          "id": "espresso",
+          "label": "Espresso",
+          "hex": "#3B2F2F",
+          "swatch": "#3B2F2F",
+          "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "black",
+          "label": "Black",
+          "hex": "#121212",
+          "swatch": "#121212",
+          "image": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85"
+        }
+      ]
+    },
+    "variants": []
+  },
+  {
+    "id": "prod-reading-candle",
+    "slug": "library-smoke-candle",
+    "name": "Library Smoke Candle",
+    "category": "products",
+    "subcategory": "fragrance",
+    "type": "product",
+    "subtitle": "Cedar, ink & vanilla smoke",
+    "collection": "Reading Ritual",
+    "artist": null,
+    "description": "A soy-blend candle inspired by late-night library stacks\u2014cedar, ink, and soft vanilla smoke.",
+    "price": 38.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
+        "alt": "Library Smoke Candle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
+        "alt": "Candle ambiance"
+      }
+    ],
+    "badges": [
+      "new"
+    ],
+    "tags": [
+      "candle",
+      "fragrance"
+    ],
+    "featured": true,
+    "inStock": true,
+    "inventory": 110,
+    "rating": 4.6,
+    "createdAt": "2025-10-12",
+    "specs": {
+      "burnTime": "45 hours",
+      "wax": "Soy blend",
+      "vessel": "Matte black glass"
+    },
+    "options": {},
+    "variants": []
+  },
+  {
+    "id": "prod-card-case",
+    "slug": "gilt-edge-card-case",
+    "name": "Gilt-Edge Card Case",
+    "category": "products",
+    "subcategory": "leather-goods",
+    "type": "product",
+    "subtitle": "Slim bifold for cards & cash",
+    "collection": "Travel Cabinet",
+    "artist": null,
+    "description": "Minimal leather card case with champagne foil edge paint and six card slots.",
+    "price": 48.0,
+    "compareAtPrice": null,
+    "primaryImage": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilt-Edge Card Case"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
+        "alt": "Card case detail"
+      }
+    ],
+    "badges": [],
+    "tags": [
+      "wallet",
+      "leather"
+    ],
+    "featured": false,
+    "inStock": true,
+    "inventory": 80,
+    "rating": 4.4,
+    "createdAt": "2025-05-05",
+    "specs": {
+      "material": "Vegetable-tanned leather",
+      "slots": 6
+    },
+    "options": {
+      "colors": [
+        {
+          "id": "black",
+          "label": "Black",
+          "hex": "#121212",
+          "swatch": "#121212",
+          "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85"
+        },
+        {
+          "id": "tan",
+          "label": "Tan",
+          "hex": "#C4A574",
+          "swatch": "#C4A574",
+          "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85"
+        }
+      ]
+    },
+    "variants": []
+  }
+]
