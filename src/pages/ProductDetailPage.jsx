@@ -248,7 +248,7 @@ export default function ProductDetailPage() {
               <button
                 type="button"
                 onClick={() => openBookPreview(product)}
-                className="inline-flex items-center gap-2 border border-brand-gold/40 bg-brand-gold/5 px-4 py-2 text-[11px] uppercase tracking-[0.14em] text-brand-gold transition-all duration-300 hover:bg-brand-gold/10"
+                className="inline-flex items-center gap-2 rounded-xl border border-brand-gold/40 bg-brand-gold/5 px-4 py-2 text-[11px] uppercase tracking-[0.14em] text-brand-gold transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-gold/10"
               >
                 <BookOpen size={14} />
                 Read / Listen Preview
@@ -258,7 +258,7 @@ export default function ProductDetailPage() {
               type="button"
               onClick={() => toggleWishlistItem(product)}
               className={[
-                'inline-flex items-center gap-2 border px-4 py-2 text-[11px] uppercase tracking-[0.14em] transition-all duration-300',
+                'inline-flex items-center gap-2 rounded-xl border px-4 py-2 text-[11px] uppercase tracking-[0.14em] transition-all duration-300 hover:-translate-y-0.5',
                 isInWishlist(product.id)
                   ? 'border-brand-gold text-brand-gold'
                   : 'border-brand-border text-brand-muted hover:border-brand-gold/40',
@@ -281,7 +281,7 @@ export default function ProductDetailPage() {
           </div>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <div className="inline-flex items-center border border-brand-border">
+            <div className="inline-flex items-center overflow-hidden rounded-xl border border-brand-border">
               <button
                 type="button"
                 className="inline-flex h-12 w-12 items-center justify-center text-brand-text disabled:opacity-40"
@@ -308,7 +308,7 @@ export default function ProductDetailPage() {
               type="button"
               disabled={!stockOk}
               onClick={handleAddToBag}
-              className="btn-gold-shimmer inline-flex flex-1 items-center justify-center gap-2 px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em] disabled:cursor-not-allowed disabled:opacity-40"
+              className="btn-gold-shimmer inline-flex flex-1 items-center justify-center gap-2 rounded-xl px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em] disabled:cursor-not-allowed disabled:opacity-40"
             >
               <ShoppingBag size={16} strokeWidth={1.75} />
               {stockOk ? 'Add to Bag' : 'Sold Out'}

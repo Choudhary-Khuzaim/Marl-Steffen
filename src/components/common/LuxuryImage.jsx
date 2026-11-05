@@ -61,7 +61,7 @@ export default function LuxuryImage({
   return (
     <div
       className={[
-        'relative h-full w-full overflow-hidden bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10',
+        'relative h-full w-full overflow-hidden rounded-[inherit] bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10',
         className,
       ].join(' ')}
     >

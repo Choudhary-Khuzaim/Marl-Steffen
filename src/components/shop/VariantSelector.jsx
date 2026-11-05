@@ -134,7 +134,7 @@ export default function VariantSelector({ product, selection, onChange }) {
                   disabled={disabled}
                   onClick={() => onChange({ ...selection, formatId: format.id })}
                   className={[
-                    'border px-3 py-2 text-sm transition-all duration-300',
+                    'rounded-xl border px-3 py-2 text-sm transition-all duration-300',
                     disabled
                       ? 'cursor-not-allowed border-brand-border text-brand-muted line-through opacity-45'
                       : selected
@@ -155,7 +155,7 @@ export default function VariantSelector({ product, selection, onChange }) {
           <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-brand-gold">
             Publishing Specs
           </p>
-          <dl className="mt-3 grid grid-cols-2 gap-x-4 gap-y-3 border border-brand-border bg-brand-card p-4 text-sm">
+          <dl className="mt-3 grid grid-cols-2 gap-x-4 gap-y-3 rounded-2xl border border-brand-border bg-brand-card p-4 text-sm">
             {product.specs.isbn && (
               <>
                 <dt className="text-brand-muted">ISBN</dt>
@@ -189,7 +189,7 @@ export default function VariantSelector({ product, selection, onChange }) {
           <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-brand-gold">
             Product Specs
           </p>
-          <dl className="mt-3 grid grid-cols-2 gap-x-4 gap-y-3 border border-brand-border bg-brand-card p-4 text-sm">
+          <dl className="mt-3 grid grid-cols-2 gap-x-4 gap-y-3 rounded-2xl border border-brand-border bg-brand-card p-4 text-sm">
             {Object.entries(product.specs).map(([key, value]) => (
               <div key={key} className="contents">
                 <dt className="capitalize text-brand-muted">
@@ -262,7 +262,7 @@ export default function VariantSelector({ product, selection, onChange }) {
                   disabled={!available}
                   onClick={() => onChange({ ...selection, size })}
                   className={[
-                    'min-w-12 border px-3 py-2 text-sm transition-all duration-300',
+                    'min-w-12 rounded-xl border px-3 py-2 text-sm transition-all duration-300',
                     !available
                       ? 'cursor-not-allowed border-brand-border text-brand-muted line-through opacity-45'
                       : selected
@@ -294,7 +294,7 @@ export default function VariantSelector({ product, selection, onChange }) {
             role="dialog"
             aria-modal="true"
             aria-labelledby={sizeGuideTitleId}
-            className="relative z-10 w-full max-w-md border border-brand-border bg-brand-surface p-6 shadow-2xl"
+            className="relative z-10 w-full max-w-md overflow-hidden rounded-3xl border border-brand-border bg-brand-surface p-6 shadow-2xl"
           >
             <div className="flex items-start justify-between gap-4">
               <h2 id={sizeGuideTitleId} className="font-serif text-xl tracking-wide text-brand-text">

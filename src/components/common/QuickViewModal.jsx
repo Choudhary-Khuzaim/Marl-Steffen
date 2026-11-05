@@ -94,7 +94,7 @@ export default function QuickViewModal() {
         role="dialog"
         aria-modal="true"
         aria-label={`Quick view ${product.name}`}
-        className="glass-panel relative z-10 grid w-full max-w-4xl overflow-hidden md:grid-cols-2"
+        className="glass-panel relative z-10 grid w-full max-w-4xl overflow-hidden rounded-3xl md:grid-cols-2"
         initial={{ opacity: 0, scale: 0.94, y: 16 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.94, y: 16 }}
@@ -144,7 +144,7 @@ export default function QuickViewModal() {
                     type="button"
                     onClick={() => setFormatId(format.id)}
                     className={[
-                      'border px-3 py-1.5 text-xs transition-all duration-300',
+                      'rounded-xl border px-3 py-1.5 text-xs transition-all duration-300',
                       formatId === format.id
                         ? 'border-brand-gold text-brand-gold'
                         : 'border-brand-border text-brand-muted hover:border-brand-gold/40',
@@ -189,7 +189,7 @@ export default function QuickViewModal() {
                     type="button"
                     onClick={() => setSize(value)}
                     className={[
-                      'min-w-10 border px-2.5 py-1.5 text-xs',
+                      'min-w-10 rounded-xl border px-2.5 py-1.5 text-xs',
                       size === value
                         ? 'border-brand-gold text-brand-gold'
                         : 'border-brand-border text-brand-muted',
@@ -206,7 +206,7 @@ export default function QuickViewModal() {
             <button
               type="button"
               onClick={handleAdd}
-              className="btn-gold-shimmer inline-flex flex-1 items-center justify-center gap-2 px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em]"
+              className="btn-gold-shimmer inline-flex flex-1 items-center justify-center gap-2 rounded-xl px-5 py-3 text-xs font-semibold uppercase tracking-[0.16em]"
             >
               <ShoppingBag size={15} />
               Add to Bag
@@ -215,7 +215,7 @@ export default function QuickViewModal() {
               type="button"
               onClick={() => toggleWishlistItem(product)}
               className={[
-                'inline-flex items-center justify-center gap-2 border px-4 py-3 text-xs uppercase tracking-[0.14em] transition-all duration-300',
+                'inline-flex items-center justify-center gap-2 rounded-xl border px-4 py-3 text-xs uppercase tracking-[0.14em] transition-all duration-300 hover:-translate-y-0.5',
                 wished
                   ? 'border-brand-gold text-brand-gold'
                   : 'border-brand-border text-brand-muted hover:border-brand-gold/40',

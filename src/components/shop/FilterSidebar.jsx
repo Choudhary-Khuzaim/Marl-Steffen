@@ -92,7 +92,7 @@ export default function FilterSidebar({
   const activeCategory = categories.find((item) => item.slug === filters.category)
 
   return (
-    <aside className={className}>
+    <aside className={['rounded-2xl border border-brand-border bg-brand-card p-5', className].filter(Boolean).join(' ')}>
       <div className="mb-4 flex items-center justify-between gap-3">
         {showHeading ? (
           <h2 className="font-serif text-lg tracking-wide text-brand-text">Filters</h2>
@@ -119,7 +119,7 @@ export default function FilterSidebar({
               key={tag.key}
               type="button"
               onClick={() => onChange(tag.clear(filters))}
-              className="inline-flex items-center gap-1.5 border border-brand-border bg-brand-card px-2.5 py-1 text-xs text-brand-text transition-all duration-300 hover:border-brand-gold/50"
+              className="inline-flex items-center gap-1.5 rounded-full border border-brand-border bg-brand-surface px-3 py-1 text-xs text-brand-text transition-all duration-300 hover:border-brand-gold/50"
             >
               {tag.label}
               <X size={12} strokeWidth={2} aria-hidden="true" />

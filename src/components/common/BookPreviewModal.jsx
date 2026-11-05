@@ -96,7 +96,7 @@ export default function BookPreviewModal() {
         role="dialog"
         aria-modal="true"
         aria-label={`Preview ${product.name}`}
-        className="glass-panel relative z-10 w-full max-w-3xl overflow-hidden"
+        className="glass-panel relative z-10 w-full max-w-3xl overflow-hidden rounded-3xl"
         initial={{ opacity: 0, scale: 0.94, y: 16 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.94, y: 16 }}
@@ -139,7 +139,7 @@ export default function BookPreviewModal() {
               A short atmospheric reading of the opening pages.
             </p>
 
-            <div className="mt-6 rounded-sm border border-brand-border bg-brand-bg/50 p-4">
+            <div className="mt-6 rounded-2xl border border-brand-border bg-brand-bg/50 p-4">
               <Waveform playing={playing} progress={progress} />
               <div className="mt-4 flex items-center gap-3">
                 <button

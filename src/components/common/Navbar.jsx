@@ -191,7 +191,7 @@ export default function Navbar() {
 
         <aside
           id={drawerId}
-          className={`fixed inset-y-0 left-0 z-50 flex w-[min(100%,20rem)] flex-col border-r border-brand-border bg-brand-bg shadow-2xl transition-transform duration-300 lg:hidden ${
+          className={`fixed inset-y-0 left-0 z-50 flex w-[min(100%,20rem)] flex-col overflow-hidden border-r border-brand-border bg-brand-bg shadow-2xl transition-transform duration-300 md:rounded-r-3xl lg:hidden ${
             mobileOpen ? 'translate-x-0' : '-translate-x-full'
           }`}
           aria-hidden={!mobileOpen}

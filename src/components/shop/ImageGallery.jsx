@@ -39,7 +39,7 @@ export default function ImageGallery({ product, activeColorImage }) {
   const activeImage = images[activeIndex] || images[0]
   if (!activeImage) {
     return (
-      <div className="aspect-[4/5] overflow-hidden border border-brand-border bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10">
+      <div className="aspect-[4/5] overflow-hidden rounded-2xl border border-brand-border bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10">
         <ArchiveMonogram title={product.name} />
       </div>
     )
@@ -50,7 +50,7 @@ export default function ImageGallery({ product, activeColorImage }) {
   return (
     <div className="flex flex-col gap-4 lg:flex-row-reverse lg:items-start">
       <div
-        className="relative aspect-[4/5] w-full overflow-hidden border border-brand-border bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10 lg:flex-1"
+        className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-brand-border bg-[#EFECE6] ring-1 ring-inset ring-black/5 dark:bg-[#111318] dark:ring-white/10 lg:flex-1"
         onMouseEnter={() => setZooming(true)}
         onMouseLeave={() => setZooming(false)}
         onMouseMove={(event) => {
@@ -96,7 +96,7 @@ export default function ImageGallery({ product, activeColorImage }) {
                 aria-selected={selected}
                 onClick={() => setActiveIndex(index)}
                 className={[
-                  'relative h-16 w-16 shrink-0 overflow-hidden border transition-all duration-300 lg:h-20 lg:w-20',
+                  'relative h-16 w-16 shrink-0 overflow-hidden rounded-xl border transition-all duration-300 lg:h-20 lg:w-20',
                   selected
                     ? 'border-brand-gold'
                     : 'border-brand-border hover:border-brand-gold/50',

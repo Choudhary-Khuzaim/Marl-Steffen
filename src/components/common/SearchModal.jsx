@@ -71,7 +71,7 @@ export default function SearchModal({ open, onClose }) {
         role="dialog"
         aria-modal="true"
         aria-label="Search the Mark Steffen shop"
-        className="relative z-10 w-full max-w-2xl overflow-hidden border border-brand-border bg-brand-surface shadow-2xl"
+        className="relative z-10 w-full max-w-2xl overflow-hidden rounded-3xl border border-brand-border bg-brand-surface shadow-2xl"
       >
         <div className="flex items-center gap-3 border-b border-brand-border px-4 py-3">
           <Search size={18} className="text-brand-gold" strokeWidth={1.75} />
@@ -105,7 +105,7 @@ export default function SearchModal({ open, onClose }) {
                     key={category.id}
                     to={`/shop?category=${category.slug}`}
                     onClick={onClose}
-                    className="border border-brand-border px-3 py-2 text-xs uppercase tracking-[0.14em] text-brand-muted transition-all duration-300 hover:border-brand-gold/50 hover:text-brand-gold"
+                    className="rounded-full border border-brand-border px-4 py-1.5 text-xs uppercase tracking-[0.14em] text-brand-muted transition-all duration-300 hover:border-brand-gold/50 hover:text-brand-gold"
                   >
                     {category.label}
                   </Link>
@@ -127,9 +127,9 @@ export default function SearchModal({ open, onClose }) {
                   <Link
                     to={`/product/${product.slug}`}
                     onClick={onClose}
-                    className="flex items-center gap-3 rounded-sm px-2 py-2 transition-colors duration-300 hover:bg-brand-card"
+                    className="flex items-center gap-3 rounded-xl px-2 py-2 transition-colors duration-300 hover:bg-brand-card"
                   >
-                    <div className="h-14 w-12 shrink-0 overflow-hidden">
+                    <div className="h-14 w-12 shrink-0 overflow-hidden rounded-xl">
                       <LuxuryImage
                         src={product.primaryImage}
                         alt=""

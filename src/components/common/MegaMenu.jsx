@@ -17,7 +17,7 @@ export default function MegaMenu({ open, onClose }) {
     <AnimatePresence>
       {open && (
         <motion.div
-          className="absolute left-0 right-0 top-full z-50 hidden overflow-hidden border-b border-brand-border bg-brand-bg/95 shadow-2xl backdrop-blur-xl lg:block"
+          className="absolute left-3 right-3 top-full z-50 mt-2 hidden overflow-hidden rounded-3xl border border-brand-border bg-brand-bg/95 shadow-2xl backdrop-blur-xl lg:block"
           role="region"
           aria-label="Shop categories"
           initial={{ opacity: 0, y: -12 }}
@@ -55,7 +55,7 @@ export default function MegaMenu({ open, onClose }) {
                           className="group flex items-center justify-between gap-3 text-sm text-brand-muted transition-colors duration-300 hover:text-brand-text"
                         >
                           <span>{sub.label}</span>
-                          <span className="rounded-sm border border-brand-border px-1.5 py-0.5 text-[10px] tabular-nums text-brand-muted group-hover:border-brand-gold/40 group-hover:text-brand-gold">
+                          <span className="rounded-full border border-brand-border px-2 py-0.5 text-[10px] tabular-nums text-brand-muted group-hover:border-brand-gold/40 group-hover:text-brand-gold">
                             {count}
                           </span>
                         </Link>

@@ -32,17 +32,17 @@ export default function CategoryHierarchyGrid() {
               key={category.id}
               delay={index * 0.12}
               className={[
-                'group relative overflow-hidden border border-brand-border bg-brand-card transition-all duration-500 hover:border-brand-gold/50 hover:shadow-gold-glow',
+                'group relative overflow-hidden rounded-3xl border border-brand-border bg-brand-card transition-all duration-500 hover:border-brand-gold/50 hover:shadow-gold-glow',
                 span,
               ].join(' ')}
             >
-              <Link to={`/shop?category=${category.slug}`} className="absolute inset-0">
+              <Link to={`/shop?category=${category.slug}`} className="absolute inset-0 overflow-hidden rounded-3xl">
                 <img
                   src={category.image}
                   alt=""
-                  className="h-full w-full object-cover opacity-70 transition-transform duration-700 group-hover:scale-105 dark:opacity-50"
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#121316]/88 via-[#121316]/35 to-transparent dark:from-brand-bg dark:via-brand-bg/55" />
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-[#0A0B0E]/95 via-[#0A0B0E]/55 to-black/15" />
               </Link>
 
               <div className="relative z-10 flex h-full flex-col justify-end p-5 sm:p-6">
@@ -65,7 +65,7 @@ export default function CategoryHierarchyGrid() {
                     >
                       <Link
                         to={`/shop?category=${category.slug}&subcategory=${sub.slug}`}
-                        className="inline-block rounded-full border border-[#D4AF37]/45 bg-[#141311]/70 px-3 py-1 text-[10px] uppercase tracking-[0.14em] text-[#D4AF37] backdrop-blur-md transition-all duration-300 hover:border-[#D4AF37] hover:shadow-[0_0_18px_rgba(var(--brand-gold-rgb),0.25)]"
+                        className="inline-block rounded-full border border-[#D4AF37]/45 bg-[#141311]/70 px-4 py-1.5 text-[10px] uppercase tracking-[0.14em] text-[#D4AF37] backdrop-blur-md transition-all duration-300 hover:border-[#D4AF37] hover:shadow-[0_0_18px_rgba(var(--brand-gold-rgb),0.25)]"
                       >
                         {sub.label}
                       </Link>

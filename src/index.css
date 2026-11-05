@@ -201,6 +201,7 @@ html.dark {
   .btn-gold-shimmer {
     position: relative;
     overflow: hidden;
+    border-radius: 0.75rem;
     background-image: linear-gradient(
       120deg,
       var(--brand-shimmer-a),
@@ -215,6 +216,16 @@ html.dark {
     transition:
       box-shadow 0.3s ease,
       transform 0.3s ease;
+  }
+
+  .soft-frame {
+    overflow: hidden;
+    border-radius: 1.5rem;
+  }
+
+  .soft-card {
+    overflow: hidden;
+    border-radius: 1rem;
   }
 
   .btn-gold-shimmer::after {
@@ -232,11 +243,19 @@ html.dark {
   }
 
   .btn-gold-shimmer:hover {
+    transform: translateY(-2px);
     box-shadow: 0 0 36px rgba(var(--brand-gold-rgb), 0.42);
   }
 
   .btn-gold-shimmer:hover::after {
     animation: shimmer-sweep 0.9s ease;
+  }
+
+  /* Soft Architectural Curve defaults for native controls */
+  input:not([type='checkbox']):not([type='radio']):not([type='range']),
+  select,
+  textarea {
+    border-radius: 0.75rem;
   }
 
   .animate-marquee {

@@ -77,7 +77,7 @@ export default function LookbookHotspots() {
         <div className="mt-10 grid gap-6 lg:grid-cols-[1.4fr_0.8fr]">
           <FadeInUpView
             delay={0.1}
-            className="relative aspect-[16/11] overflow-hidden border border-brand-border bg-brand-card"
+            className="relative aspect-[16/11] overflow-hidden rounded-3xl border border-brand-border bg-brand-card"
           >
             <img
               src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80"
@@ -122,7 +122,7 @@ export default function LookbookHotspots() {
             })}
           </FadeInUpView>
 
-          <div className="glass-panel relative flex min-h-[28rem] flex-col overflow-hidden p-6">
+          <div className="glass-panel relative flex min-h-[28rem] flex-col overflow-hidden rounded-3xl p-6">
             <p className="text-[10px] uppercase tracking-[0.2em] text-brand-gold">Pinned Piece</p>
             <AnimatePresence mode="wait">
               {activeProduct ? (
@@ -134,12 +134,13 @@ export default function LookbookHotspots() {
                   transition={{ duration: 0.3, ease: motionEase }}
                   className="flex flex-1 flex-col"
                 >
-                  <div className="mt-4 aspect-[4/5] w-full overflow-hidden">
+                  <div className="mt-4 aspect-[4/5] w-full overflow-hidden rounded-2xl">
                     <LuxuryImage
                       src={activeProduct.primaryImage}
                       alt=""
                       title={activeProduct.name}
                       showVignette
+                      className="rounded-2xl"
                     />
                   </div>
                   <h3 className="mt-4 font-serif text-xl tracking-wide text-brand-text">
@@ -153,13 +154,13 @@ export default function LookbookHotspots() {
                     <button
                       type="button"
                       onClick={() => openQuickView(activeProduct)}
-                      className="btn-gold-shimmer flex-1 px-4 py-3 text-xs font-semibold uppercase tracking-[0.14em]"
+                      className="btn-gold-shimmer flex-1 rounded-xl px-4 py-3 text-xs font-semibold uppercase tracking-[0.14em] transition-all duration-300 hover:-translate-y-0.5"
                     >
                       Quick View
                     </button>
                     <Link
                       to={`/product/${activeProduct.slug}`}
-                      className="border border-brand-border px-4 py-3 text-xs uppercase tracking-[0.14em] text-brand-text hover:border-brand-gold/40"
+                      className="rounded-xl border border-brand-border px-4 py-3 text-xs uppercase tracking-[0.14em] text-brand-text transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-gold/40"
                     >
                       Details
                     </Link>

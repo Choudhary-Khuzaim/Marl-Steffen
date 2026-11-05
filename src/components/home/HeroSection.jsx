@@ -38,7 +38,7 @@ export default function HeroSection() {
       <div className="absolute right-[6%] top-1/2 hidden w-[22rem] -translate-y-1/2 lg:block xl:right-[10%] xl:w-[26rem]">
         <TiltCard3D className="relative h-[28rem]">
           <motion.div
-            className="absolute left-8 top-0 h-72 w-52 overflow-hidden border border-brand-border bg-[#EFECE6] shadow-brand ring-1 ring-black/5 dark:bg-[#111318] dark:ring-white/10"
+            className="absolute left-8 top-0 h-72 w-52 overflow-hidden rounded-3xl border border-brand-border bg-[#EFECE6] shadow-brand ring-1 ring-black/5 dark:bg-[#111318] dark:ring-white/10"
             style={{ rotate: -8 }}
             animate={{ y: [0, -8, 0] }}
             transition={floatTransition(0)}
@@ -54,7 +54,7 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.div
-            className="absolute left-20 top-16 h-80 w-56 overflow-hidden border border-brand-gold/40 bg-[#EFECE6] shadow-gold-glow ring-1 ring-black/5 dark:bg-[#111318] dark:ring-white/10"
+            className="absolute left-20 top-16 h-80 w-56 overflow-hidden rounded-3xl border border-brand-gold/40 bg-[#EFECE6] shadow-gold-glow ring-1 ring-black/5 dark:bg-[#111318] dark:ring-white/10"
             style={{ rotate: 4 }}
             animate={{ y: [0, -8, 0] }}
             transition={floatTransition(0.6)}
@@ -70,7 +70,7 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.div
-            className="glass-panel absolute -left-2 bottom-10 px-4 py-3"
+            className="glass-panel absolute -left-2 bottom-10 rounded-2xl px-4 py-3 backdrop-blur-xl"
             animate={{ y: [0, -8, 0] }}
             transition={floatTransition(1.1)}
           >
@@ -79,7 +79,7 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.div
-            className="glass-panel absolute right-0 top-8 px-4 py-3"
+            className="glass-panel absolute right-0 top-8 rounded-2xl px-4 py-3 backdrop-blur-xl"
             animate={{ y: [0, -8, 0] }}
             transition={floatTransition(1.6)}
           >
@@ -92,7 +92,7 @@ export default function HeroSection() {
       <div className="relative mx-auto flex min-h-[90vh] max-w-7xl flex-col justify-end px-4 pb-20 pt-32 lg:justify-center lg:pb-28 lg:px-6">
         <StaggerContainer className="max-w-3xl" once={false} initial="hidden" animate="show">
           <StaggerItem>
-            <div className="glass-panel mb-6 inline-flex w-fit items-center gap-2 px-3 py-1.5">
+            <div className="glass-panel mb-6 inline-flex w-fit items-center gap-2 rounded-full px-4 py-1.5">
               <span className="h-1.5 w-1.5 animate-pulse-gold rounded-full bg-brand-gold" />
               <span className="text-[10px] font-medium uppercase tracking-[0.22em] text-brand-gold">
                 Official Mark Steffen Store
@@ -123,7 +123,7 @@ export default function HeroSection() {
                 <Link
                   key={pill.href}
                   to={pill.href}
-                  className="rounded-full border border-brand-gold/40 bg-white/80 px-3 py-1 text-[10px] uppercase tracking-[0.14em] text-brand-gold shadow-sm backdrop-blur-md transition-all duration-300 hover:border-brand-gold hover:text-brand-goldDark dark:bg-brand-bg/40 dark:hover:text-brand-goldLight"
+                  className="rounded-full border border-brand-gold/40 bg-white/80 px-4 py-1.5 text-[10px] uppercase tracking-[0.14em] text-brand-gold shadow-sm backdrop-blur-md transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-gold hover:text-brand-goldDark dark:bg-brand-bg/40 dark:hover:text-brand-goldLight"
                 >
                   {pill.label}
                 </Link>
@@ -135,13 +135,13 @@ export default function HeroSection() {
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 to="/shop"
-                className="btn-gold-shimmer px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.18em]"
+                className="btn-gold-shimmer rounded-xl px-7 py-3.5 text-xs font-semibold uppercase tracking-[0.18em] transition-all duration-300 hover:-translate-y-0.5"
               >
                 Explore the Collection
               </Link>
               <Link
                 to="/shop?category=books"
-                className="border border-brand-border px-7 py-3.5 text-xs font-medium uppercase tracking-[0.18em] text-brand-text transition-all duration-300 hover:border-brand-gold/50"
+                className="rounded-xl border border-brand-border px-7 py-3.5 text-xs font-medium uppercase tracking-[0.18em] text-brand-text transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-gold/50"
               >
                 Shop Books
               </Link>
@@ -149,7 +149,7 @@ export default function HeroSection() {
                 <button
                   type="button"
                   onClick={() => openBookPreview(featuredBook)}
-                  className="inline-flex items-center gap-2 border border-brand-gold/40 bg-brand-gold/5 px-5 py-3.5 text-xs font-medium uppercase tracking-[0.16em] text-brand-gold transition-all duration-300 hover:bg-brand-gold/10"
+                  className="inline-flex items-center gap-2 rounded-xl border border-brand-gold/40 bg-brand-gold/5 px-5 py-3.5 text-xs font-medium uppercase tracking-[0.16em] text-brand-gold transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-gold/10"
                 >
                   <Headphones size={15} />
                   Listen to Prologue

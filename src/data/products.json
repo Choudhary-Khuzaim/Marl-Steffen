@@ -9,19 +9,23 @@
     "subtitle": "A Mark Steffen literary thriller",
     "collection": "Mark Steffen Library",
     "artist": null,
-    "description": "A high-stakes literary thriller following a disgraced archivist who uncovers a century of buried ledgers\u2014and the dynasty that will kill to keep them closed.",
-    "price": 28.0,
+    "description": "A high-stakes literary thriller following a disgraced archivist who uncovers a century of buried ledgers—and the dynasty that will kill to keep them closed.",
+    "price": 28,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=85",
     "secondaryImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=85",
-        "alt": "The Obsidian Ledger cover"
+        "alt": "The Obsidian Ledger primary view"
       },
       {
         "src": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
-        "alt": "Obsidian Ledger pages"
+        "alt": "The Obsidian Ledger alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
+        "alt": "The Obsidian Ledger detail view"
       }
     ],
     "badges": [
@@ -49,19 +53,19 @@
         {
           "id": "hardcover",
           "label": "Trade Hardcover",
-          "price": 28.0,
+          "price": 28,
           "inStock": true
         },
         {
           "id": "paperback",
           "label": "Paperback",
-          "price": 18.0,
+          "price": 18,
           "inStock": true
         },
         {
           "id": "ebook",
           "label": "Digital Edition",
-          "price": 12.0,
+          "price": 12,
           "inStock": true
         }
       ]
@@ -79,18 +83,22 @@
     "collection": "Signed Collection",
     "artist": null,
     "description": "An epistolary novel of midnight letters between two rivals. Each copy includes an author-signed plate and numbered colophon.",
-    "price": 48.0,
-    "compareAtPrice": 54.0,
+    "price": 48,
+    "compareAtPrice": 54,
     "primaryImage": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
-        "alt": "Night Correspondence signed edition"
+        "alt": "Night Correspondence primary view"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
+        "alt": "Night Correspondence alternate angle"
       },
       {
         "src": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
-        "alt": "Signed bookplate detail"
+        "alt": "Night Correspondence detail view"
       }
     ],
     "badges": [
@@ -118,14 +126,14 @@
         {
           "id": "signed-hardcover",
           "label": "Signed Hardcover",
-          "price": 48.0,
-          "compareAtPrice": 54.0,
+          "price": 48,
+          "compareAtPrice": 54,
           "inStock": true
         },
         {
           "id": "signed-bookplate",
           "label": "Signed Bookplate Edition",
-          "price": 58.0,
+          "price": 58,
           "inStock": true
         }
       ]
@@ -143,18 +151,22 @@
     "collection": "Collector Vault",
     "artist": "Cass Townsend",
     "description": "Clothbound with champagne foil stamping, ribbon marker, and illustrated endpapers by Cass Townsend.",
-    "price": 72.0,
+    "price": 72,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1507842229356-51c61504d3ab?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
-        "alt": "Gilded Archives clothbound"
+        "alt": "The Gilded Archives primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1507842229356-51c61504d3ab?auto=format&fit=crop&w=900&q=85",
-        "alt": "Collector edition open"
+        "src": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
+        "alt": "The Gilded Archives alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
+        "alt": "The Gilded Archives detail view"
       }
     ],
     "badges": [
@@ -168,7 +180,7 @@
     "featured": true,
     "inStock": true,
     "inventory": 40,
-    "rating": 5.0,
+    "rating": 5,
     "createdAt": "2025-11-01",
     "specs": {
       "format": "Clothbound Special Edition",
@@ -182,7 +194,7 @@
         {
           "id": "clothbound",
           "label": "Clothbound Special Edition",
-          "price": 72.0,
+          "price": 72,
           "inStock": true
         }
       ]
@@ -200,18 +212,22 @@
     "collection": "Mark Steffen Library",
     "artist": null,
     "description": "Twelve essays on craft, ambition, and the quiet violence of unfinished stories.",
-    "price": 22.0,
+    "price": 22,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=85",
-        "alt": "Midnight Essays cover"
+        "alt": "Midnight Essays primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=85",
-        "alt": "Essay anthology pages"
+        "src": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
+        "alt": "Midnight Essays alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
+        "alt": "Midnight Essays detail view"
       }
     ],
     "badges": [],
@@ -236,7 +252,7 @@
         {
           "id": "paperback",
           "label": "Trade Paperback",
-          "price": 22.0,
+          "price": 22,
           "inStock": true
         }
       ]
@@ -254,18 +270,22 @@
     "collection": "Mark Steffen Library",
     "artist": null,
     "description": "Three generations of a banking dynasty collide when a forged will resurfaces in a locked estate vault.",
-    "price": 26.0,
-    "compareAtPrice": 30.0,
+    "price": 26,
+    "compareAtPrice": 30,
     "primaryImage": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=85",
-        "alt": "Sovereign House cover"
+        "alt": "Sovereign House primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=85",
-        "alt": "Sovereign House alternate"
+        "src": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
+        "alt": "Sovereign House alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1507842229356-51c61504d3ab?auto=format&fit=crop&w=900&q=85",
+        "alt": "Sovereign House detail view"
       }
     ],
     "badges": [
@@ -292,14 +312,14 @@
         {
           "id": "hardcover",
           "label": "Hardcover",
-          "price": 26.0,
-          "compareAtPrice": 30.0,
+          "price": 26,
+          "compareAtPrice": 30,
           "inStock": true
         },
         {
           "id": "paperback",
           "label": "Paperback",
-          "price": 16.0,
+          "price": 16,
           "inStock": true
         }
       ]
@@ -317,18 +337,22 @@
     "collection": "Collector Vault",
     "artist": "Nguyet Minh Coleman",
     "description": "A slipcased omnibus of three Mark Steffen novels with exclusive cover art and annotation booklet.",
-    "price": 120.0,
+    "price": 120,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1507842229356-51c61504d3ab?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1507842229356-51c61504d3ab?auto=format&fit=crop&w=900&q=85",
-        "alt": "Steffen Folio Omnibus"
+        "alt": "Steffen Folio Omnibus primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=85",
-        "alt": "Slipcase detail"
+        "src": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=85",
+        "alt": "Steffen Folio Omnibus alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1456513080800-7d073d7c8e50?auto=format&fit=crop&w=900&q=85",
+        "alt": "Steffen Folio Omnibus detail view"
       }
     ],
     "badges": [
@@ -355,7 +379,7 @@
         {
           "id": "slipcase",
           "label": "Slipcase Omnibus",
-          "price": 120.0,
+          "price": 120,
           "inStock": true
         }
       ]
@@ -373,18 +397,22 @@
     "collection": "House Crest",
     "artist": "Cass Townsend",
     "description": "Garment-dyed heavyweight tee with embroidered Mark Steffen crest.",
-    "price": 42.0,
+    "price": 42,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
-        "alt": "MS Crest Tee"
+        "alt": "MS Crest Tee primary view"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
+        "alt": "MS Crest Tee alternate angle"
       },
       {
         "src": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
-        "alt": "Crest embroidery"
+        "alt": "MS Crest Tee detail view"
       }
     ],
     "badges": [
@@ -441,7 +469,7 @@
         "id": "crest-obs-s",
         "color": "obsidian",
         "size": "S",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 20
       },
@@ -449,7 +477,7 @@
         "id": "crest-obs-m",
         "color": "obsidian",
         "size": "M",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 34
       },
@@ -457,7 +485,7 @@
         "id": "crest-obs-l",
         "color": "obsidian",
         "size": "L",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 28
       },
@@ -465,7 +493,7 @@
         "id": "crest-obs-xl",
         "color": "obsidian",
         "size": "XL",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 16
       },
@@ -473,7 +501,7 @@
         "id": "crest-obs-xs",
         "color": "obsidian",
         "size": "XS",
-        "price": 42.0,
+        "price": 42,
         "inStock": false,
         "inventory": 0
       },
@@ -481,7 +509,7 @@
         "id": "crest-obs-2xl",
         "color": "obsidian",
         "size": "2XL",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 10
       },
@@ -489,7 +517,7 @@
         "id": "crest-ivy-m",
         "color": "ivory",
         "size": "M",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 22
       },
@@ -497,7 +525,7 @@
         "id": "crest-ivy-l",
         "color": "ivory",
         "size": "L",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 18
       },
@@ -505,7 +533,7 @@
         "id": "crest-ivy-s",
         "color": "ivory",
         "size": "S",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 12
       },
@@ -513,7 +541,7 @@
         "id": "crest-ivy-xl",
         "color": "ivory",
         "size": "XL",
-        "price": 42.0,
+        "price": 42,
         "inStock": false,
         "inventory": 0
       },
@@ -521,7 +549,7 @@
         "id": "crest-ivy-xs",
         "color": "ivory",
         "size": "XS",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 8
       },
@@ -529,7 +557,7 @@
         "id": "crest-ivy-2xl",
         "color": "ivory",
         "size": "2XL",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 7
       },
@@ -537,7 +565,7 @@
         "id": "crest-chm-m",
         "color": "champagne",
         "size": "M",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 14
       },
@@ -545,7 +573,7 @@
         "id": "crest-chm-l",
         "color": "champagne",
         "size": "L",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 11
       },
@@ -553,7 +581,7 @@
         "id": "crest-chm-s",
         "color": "champagne",
         "size": "S",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 9
       },
@@ -561,7 +589,7 @@
         "id": "crest-chm-xl",
         "color": "champagne",
         "size": "XL",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 6
       },
@@ -569,7 +597,7 @@
         "id": "crest-chm-xs",
         "color": "champagne",
         "size": "XS",
-        "price": 42.0,
+        "price": 42,
         "inStock": false,
         "inventory": 0
       },
@@ -577,7 +605,7 @@
         "id": "crest-chm-2xl",
         "color": "champagne",
         "size": "2XL",
-        "price": 42.0,
+        "price": 42,
         "inStock": true,
         "inventory": 5
       }
@@ -594,18 +622,22 @@
     "collection": "House Crest",
     "artist": "Sparrow & Wilde",
     "description": "Heavyweight fleece with champagne-gold embroidered signature script across the chest.",
-    "price": 78.0,
-    "compareAtPrice": 88.0,
+    "price": 78,
+    "compareAtPrice": 88,
     "primaryImage": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=900&q=85",
-        "alt": "Noir Script Hoodie"
+        "alt": "Noir Script Hoodie primary view"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
+        "alt": "Noir Script Hoodie alternate angle"
       },
       {
         "src": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
-        "alt": "Hoodie detail"
+        "alt": "Noir Script Hoodie detail view"
       }
     ],
     "badges": [
@@ -655,7 +687,7 @@
         "id": "hoodie-ink-s",
         "color": "ink",
         "size": "S",
-        "price": 78.0,
+        "price": 78,
         "inStock": true,
         "inventory": 10
       },
@@ -663,7 +695,7 @@
         "id": "hoodie-ink-m",
         "color": "ink",
         "size": "M",
-        "price": 78.0,
+        "price": 78,
         "inStock": true,
         "inventory": 18
       },
@@ -671,7 +703,7 @@
         "id": "hoodie-ink-l",
         "color": "ink",
         "size": "L",
-        "price": 78.0,
+        "price": 78,
         "inStock": true,
         "inventory": 14
       },
@@ -679,7 +711,7 @@
         "id": "hoodie-ink-xl",
         "color": "ink",
         "size": "XL",
-        "price": 78.0,
+        "price": 78,
         "inStock": true,
         "inventory": 9
       },
@@ -687,7 +719,7 @@
         "id": "hoodie-ink-2xl",
         "color": "ink",
         "size": "2XL",
-        "price": 78.0,
+        "price": 78,
         "inStock": false,
         "inventory": 0
       },
@@ -695,7 +727,7 @@
         "id": "hoodie-slt-s",
         "color": "slate",
         "size": "S",
-        "price": 78.0,
+        "price": 78,
         "inStock": true,
         "inventory": 8
       },
@@ -703,7 +735,7 @@
         "id": "hoodie-slt-m",
         "color": "slate",
         "size": "M",
-        "price": 78.0,
+        "price": 78,
         "inStock": true,
         "inventory": 12
       },
@@ -711,7 +743,7 @@
         "id": "hoodie-slt-l",
         "color": "slate",
         "size": "L",
-        "price": 78.0,
+        "price": 78,
         "inStock": true,
         "inventory": 11
       },
@@ -719,7 +751,7 @@
         "id": "hoodie-slt-xl",
         "color": "slate",
         "size": "XL",
-        "price": 78.0,
+        "price": 78,
         "inStock": true,
         "inventory": 7
       },
@@ -727,7 +759,7 @@
         "id": "hoodie-slt-2xl",
         "color": "slate",
         "size": "2XL",
-        "price": 78.0,
+        "price": 78,
         "inStock": true,
         "inventory": 5
       }
@@ -744,18 +776,22 @@
     "collection": "Reading Ritual",
     "artist": "Nguyet Minh Coleman",
     "description": "Matte enamel mug with gilt rim and etched Mark Steffen quote.",
-    "price": 32.0,
-    "compareAtPrice": 36.0,
+    "price": 32,
+    "compareAtPrice": 36,
     "primaryImage": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1577937923073-9955ce3a4c1d?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
-        "alt": "Ember Gilt Travel Mug"
+        "alt": "Ember Gilt Travel Mug primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85",
-        "alt": "Mug etch detail"
+        "src": "https://images.unsplash.com/photo-1577937923073-9955ce3a4c1d?auto=format&fit=crop&w=900&q=85",
+        "alt": "Ember Gilt Travel Mug alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85",
+        "alt": "Ember Gilt Travel Mug detail view"
       }
     ],
     "badges": [
@@ -805,18 +841,22 @@
     "collection": "House Crest",
     "artist": "Cass Townsend",
     "description": "Structured cap with metallic crest embroidery and tonal underbill.",
-    "price": 36.0,
+    "price": 36,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85",
-        "alt": "Gilt Crest Cap"
+        "alt": "Gilt Crest Cap primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=85",
-        "alt": "Cap side view"
+        "src": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilt Crest Cap alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilt Crest Cap detail view"
       }
     ],
     "badges": [
@@ -866,18 +906,22 @@
     "collection": "Fandom Pack",
     "artist": "Sparrow & Wilde",
     "description": "A set of eight weatherproof vinyl stickers featuring crests, quotes, and vault motifs.",
-    "price": 14.0,
+    "price": 14,
     "compareAtPrice": null,
-    "primaryImage": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85",
+    "primaryImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
-        "src": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=85",
-        "alt": "Vault Sticker Pack"
+        "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=85",
+        "alt": "Vault Sticker Pack primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=85",
-        "alt": "Sticker sheet"
+        "src": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=900&q=85",
+        "alt": "Vault Sticker Pack alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=900&q=85",
+        "alt": "Vault Sticker Pack detail view"
       }
     ],
     "badges": [
@@ -910,18 +954,22 @@
     "collection": "Reading Ritual",
     "artist": "Sparrow & Wilde",
     "description": "12oz canvas tote with letterpress-inspired Mark Steffen typography.",
-    "price": 28.0,
+    "price": 28,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=85",
-        "alt": "Ledger Canvas Tote"
+        "alt": "Ledger Canvas Tote primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=85",
-        "alt": "Tote alternate"
+        "src": "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?auto=format&fit=crop&w=900&q=85",
+        "alt": "Ledger Canvas Tote alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85",
+        "alt": "Ledger Canvas Tote detail view"
       }
     ],
     "badges": [],
@@ -969,18 +1017,22 @@
     "collection": "Executive Desk",
     "artist": null,
     "description": "Full-grain leather journal with gilt-edge pages and a magnetic closure strap.",
-    "price": 64.0,
+    "price": 64,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85",
     "secondaryImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85",
-        "alt": "Obsidian Leather Journal"
+        "alt": "Obsidian Leather Journal primary view"
       },
       {
         "src": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85",
-        "alt": "Journal open pages"
+        "alt": "Obsidian Leather Journal alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=900&q=85",
+        "alt": "Obsidian Leather Journal detail view"
       }
     ],
     "badges": [
@@ -1033,18 +1085,22 @@
     "collection": "Executive Desk",
     "artist": null,
     "description": "Balanced fountain pen with a medium gilt nib and Mark Steffen engraved barrel.",
-    "price": 95.0,
+    "price": 95,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=85",
-        "alt": "Gilt Nib Fountain Pen"
+        "alt": "Gilt Nib Fountain Pen primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85",
-        "alt": "Pen writing detail"
+        "src": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilt Nib Fountain Pen alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilt Nib Fountain Pen detail view"
       }
     ],
     "badges": [
@@ -1078,18 +1134,22 @@
     "collection": "Executive Desk",
     "artist": null,
     "description": "Large desk blotter with leather corners and replaceable writing pad inserts.",
-    "price": 58.0,
-    "compareAtPrice": 65.0,
+    "price": 58,
+    "compareAtPrice": 65,
     "primaryImage": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
-        "alt": "Executive Desk Blotter"
+        "alt": "Executive Desk Blotter primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
-        "alt": "Desk setup"
+        "src": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=900&q=85",
+        "alt": "Executive Desk Blotter alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=900&q=85",
+        "alt": "Executive Desk Blotter detail view"
       }
     ],
     "badges": [
@@ -1139,18 +1199,22 @@
     "collection": "Travel Cabinet",
     "artist": null,
     "description": "Slim leather folio for manuscripts, contracts, and travel documents.",
-    "price": 110.0,
+    "price": 110,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
-        "alt": "Voyage Leather Folio"
+        "alt": "Voyage Leather Folio primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=900&q=85",
-        "alt": "Folio interior"
+        "src": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=85",
+        "alt": "Voyage Leather Folio alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85",
+        "alt": "Voyage Leather Folio detail view"
       }
     ],
     "badges": [
@@ -1201,19 +1265,23 @@
     "subtitle": "Cedar, ink & vanilla smoke",
     "collection": "Reading Ritual",
     "artist": null,
-    "description": "A soy-blend candle inspired by late-night library stacks\u2014cedar, ink, and soft vanilla smoke.",
-    "price": 38.0,
+    "description": "A soy-blend candle inspired by late-night library stacks—cedar, ink, and soft vanilla smoke.",
+    "price": 38,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1602601389942-4b1bcfae8c8d?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85",
-        "alt": "Library Smoke Candle"
+        "alt": "Library Smoke Candle primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=900&q=85",
-        "alt": "Candle ambiance"
+        "src": "https://images.unsplash.com/photo-1602601389942-4b1bcfae8c8d?auto=format&fit=crop&w=900&q=85",
+        "alt": "Library Smoke Candle alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1608571423902-eed4a5aba6cc?auto=format&fit=crop&w=900&q=85",
+        "alt": "Library Smoke Candle detail view"
       }
     ],
     "badges": [
@@ -1247,18 +1315,22 @@
     "collection": "Travel Cabinet",
     "artist": null,
     "description": "Minimal leather card case with champagne foil edge paint and six card slots.",
-    "price": 48.0,
+    "price": 48,
     "compareAtPrice": null,
     "primaryImage": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85",
-    "secondaryImage": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
+    "secondaryImage": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85",
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=900&q=85",
-        "alt": "Gilt-Edge Card Case"
+        "alt": "Gilt-Edge Card Case primary view"
       },
       {
-        "src": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=85",
-        "alt": "Card case detail"
+        "src": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilt-Edge Card Case alternate angle"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=85",
+        "alt": "Gilt-Edge Card Case detail view"
       }
     ],
     "badges": [],

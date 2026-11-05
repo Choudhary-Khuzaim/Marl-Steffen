@@ -21,12 +21,12 @@ export default function CartItem({ item }) {
   ].filter(Boolean)
 
   return (
-    <article className="flex gap-4 border-b border-brand-border py-5 last:border-b-0">
+    <article className="my-3 flex gap-4 rounded-2xl border border-brand-border bg-brand-card p-3">
       <Link
         to={`/product/${item.slug}`}
-        className="h-24 w-20 shrink-0 overflow-hidden border border-brand-border bg-brand-surface"
+        className="h-24 w-20 shrink-0 overflow-hidden rounded-xl border border-brand-border bg-brand-surface"
       >
-        <LuxuryImage src={item.image} alt="" title={item.name} />
+        <LuxuryImage src={item.image} alt="" title={item.name} className="rounded-xl" />
       </Link>
 
       <div className="flex min-w-0 flex-1 flex-col">
@@ -50,7 +50,7 @@ export default function CartItem({ item }) {
           <button
             type="button"
             onClick={() => removeFromCart(item.id)}
-            className="inline-flex h-8 w-8 shrink-0 items-center justify-center text-brand-muted transition-colors duration-300 hover:text-brand-danger"
+            className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-brand-muted transition-colors duration-300 hover:text-brand-danger"
             aria-label={`Remove ${item.name} from cart`}
           >
             <Trash2 size={16} strokeWidth={1.75} />
@@ -58,7 +58,7 @@ export default function CartItem({ item }) {
         </div>
 
         <div className="mt-auto flex items-center justify-between gap-3 pt-3">
-          <div className="inline-flex items-center border border-brand-border">
+          <div className="inline-flex items-center overflow-hidden rounded-xl border border-brand-border">
             <button
               type="button"
               className="inline-flex h-8 w-8 items-center justify-center text-brand-text disabled:opacity-40"

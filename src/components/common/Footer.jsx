@@ -31,7 +31,8 @@ export default function Footer() {
   return (
     <footer className="mt-auto border-t border-brand-border bg-brand-surface">
       <div className="border-b border-brand-border">
-        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-14 lg:grid-cols-[1.2fr_1fr] lg:items-end lg:px-6">
+        <div className="mx-auto max-w-7xl px-4 py-14 lg:px-6">
+          <div className="grid gap-8 overflow-hidden rounded-3xl border border-brand-border bg-brand-card p-8 lg:grid-cols-[1.2fr_1fr] lg:items-end lg:p-10">
           <div>
             <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-brand-gold">
               VIP Correspondence
@@ -60,11 +61,11 @@ export default function Footer() {
                   setEmail(event.target.value)
                 }}
                 placeholder="Enter your email"
-                className="w-full border border-brand-border bg-brand-card px-4 py-3 text-sm text-brand-text placeholder:text-brand-muted transition-all duration-300 focus:border-brand-gold/50 focus:outline-none"
+                className="w-full rounded-xl border border-brand-border bg-brand-bg px-4 py-3 text-sm text-brand-text placeholder:text-brand-muted transition-all duration-300 focus:border-brand-gold/50 focus:outline-none"
               />
               <button
                 type="submit"
-                className="shrink-0 bg-gold-gradient px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-brand-bg transition-opacity duration-300 hover:opacity-90"
+                className="shrink-0 rounded-xl bg-gold-gradient px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em] text-brand-bg transition-all duration-300 hover:-translate-y-0.5 hover:opacity-90"
               >
                 Subscribe
               </button>
@@ -75,6 +76,7 @@ export default function Footer() {
               </p>
             )}
           </form>
+          </div>
         </div>
       </div>
 
@@ -131,7 +133,7 @@ export default function Footer() {
             {paymentBadges.map((badge) => (
               <li
                 key={badge}
-                className="border border-brand-border bg-brand-card px-2.5 py-1.5 text-[11px] tracking-wide text-brand-muted"
+                className="rounded-full border border-brand-border bg-brand-card px-3 py-1.5 text-[11px] tracking-wide text-brand-muted"
               >
                 {badge}
               </li>

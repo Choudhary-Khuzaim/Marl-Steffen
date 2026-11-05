@@ -57,7 +57,7 @@ export default function CartDrawer() {
           />
 
           <motion.aside
-            className="fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col border-l border-brand-border bg-brand-bg/95 shadow-2xl backdrop-blur-xl"
+            className="fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col overflow-hidden border-l border-brand-border bg-brand-bg/95 shadow-2xl backdrop-blur-xl md:rounded-l-3xl"
             role="dialog"
             aria-modal="true"
             aria-label="Shopping cart"
@@ -70,7 +70,7 @@ export default function CartDrawer() {
               <div className="flex items-center gap-2">
                 <h2 className="font-serif text-lg tracking-wide text-brand-text">Your Bag</h2>
                 {cartItemCount > 0 && (
-                  <span className="bg-gold-gradient px-2 py-0.5 text-[10px] font-semibold tabular-nums text-brand-bg">
+                  <span className="rounded-full bg-gold-gradient px-2.5 py-0.5 text-[10px] font-semibold tabular-nums text-brand-bg">
                     {cartItemCount}
                   </span>
                 )}
@@ -93,9 +93,9 @@ export default function CartDrawer() {
                       ? 'You’ve unlocked complimentary domestic shipping.'
                       : `Add ${formatPrice(Math.max(0, FREE_SHIPPING_THRESHOLD - cartTotal))} more for Free Shipping.`}
                   </p>
-                  <div className="mt-3 h-1.5 overflow-hidden bg-brand-border">
+                  <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-brand-border">
                     <motion.div
-                      className="h-full bg-gold-gradient"
+                      className="h-full rounded-full bg-gold-gradient"
                       initial={{ width: 0 }}
                       animate={{
                         width: `${Math.min(100, (cartTotal / FREE_SHIPPING_THRESHOLD) * 100)}%`,
@@ -105,7 +105,7 @@ export default function CartDrawer() {
                   </div>
                 </div>
 
-                <div className="glass-panel px-3 py-3">
+                <div className="glass-panel rounded-2xl px-3 py-3">
                   <div className="flex items-center justify-between gap-2">
                     <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-brand-gold">
                       VIP Reward Path
@@ -115,9 +115,9 @@ export default function CartDrawer() {
                       {vipProgress.nextTier ? ` → ${vipProgress.nextTier.label}` : ' · Complete'}
                     </p>
                   </div>
-                  <div className="relative mt-3 h-1.5 overflow-hidden bg-brand-border">
+                  <div className="relative mt-3 h-1.5 overflow-hidden rounded-full bg-brand-border">
                     <motion.div
-                      className="h-full bg-gold-gradient"
+                      className="h-full rounded-full bg-gold-gradient"
                       initial={{ width: 0 }}
                       animate={{ width: `${vipProgress.progress}%` }}
                       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
@@ -160,7 +160,7 @@ export default function CartDrawer() {
                 </ul>
               ) : (
                 <div className="flex h-full flex-col items-center justify-center px-4 py-16 text-center">
-                  <div className="flex h-16 w-16 items-center justify-center border border-brand-border bg-brand-card text-brand-gold">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-2xl border border-brand-border bg-brand-card text-brand-gold">
                     <ShoppingBag size={28} strokeWidth={1.5} />
                   </div>
                   <h3 className="mt-5 font-serif text-xl tracking-wide text-brand-text">

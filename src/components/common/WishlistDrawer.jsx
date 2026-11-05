@@ -49,7 +49,7 @@ export default function WishlistDrawer() {
       />
 
       <aside
-        className={`fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col border-l border-brand-border bg-brand-bg/95 shadow-2xl backdrop-blur-xl transition-transform duration-300 ${
+        className={`fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col overflow-hidden border-l border-brand-border bg-brand-bg/95 shadow-2xl backdrop-blur-xl transition-transform duration-300 md:rounded-l-3xl ${
           isWishlistOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
         role="dialog"
@@ -61,7 +61,7 @@ export default function WishlistDrawer() {
           <div className="flex items-center gap-2">
             <h2 className="font-serif text-lg tracking-wide text-brand-text">Wishlist</h2>
             {wishlist.length > 0 && (
-              <span className="bg-gold-gradient px-2 py-0.5 text-[10px] font-semibold text-brand-bg">
+              <span className="rounded-full bg-gold-gradient px-2.5 py-0.5 text-[10px] font-semibold text-brand-bg">
                 {wishlist.length}
               </span>
             )}
@@ -99,11 +99,11 @@ export default function WishlistDrawer() {
                 return (
                   <li
                     key={item.id}
-                    className="flex gap-4 border-b border-brand-border py-5"
+                    className="my-3 flex gap-4 rounded-2xl border border-brand-border bg-brand-card p-3"
                   >
                     <button
                       type="button"
-                      className="h-24 w-20 shrink-0 overflow-hidden border border-brand-border"
+                      className="h-24 w-20 shrink-0 overflow-hidden rounded-xl border border-brand-border"
                       onClick={() => {
                         if (full) {
                           closeWishlist()
@@ -115,6 +115,7 @@ export default function WishlistDrawer() {
                         src={item.primaryImage}
                         alt=""
                         title={item.name}
+                        className="rounded-xl"
                       />
                     </button>
                     <div className="min-w-0 flex-1">
@@ -135,7 +136,7 @@ export default function WishlistDrawer() {
                         <button
                           type="button"
                           onClick={() => moveToBag(item)}
-                          className="inline-flex items-center gap-1.5 border border-brand-gold/40 px-3 py-1.5 text-[11px] uppercase tracking-[0.12em] text-brand-gold hover:bg-brand-gold/10"
+                          className="inline-flex items-center gap-1.5 rounded-xl border border-brand-gold/40 px-3 py-1.5 text-[11px] uppercase tracking-[0.12em] text-brand-gold transition-all duration-300 hover:-translate-y-0.5 hover:bg-brand-gold/10"
                         >
                           <ShoppingBag size={12} />
                           Move to Bag

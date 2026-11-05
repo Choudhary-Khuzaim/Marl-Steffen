@@ -60,7 +60,7 @@ export default function BundleUpsellCard({
   }
 
   return (
-    <aside className="glass-panel overflow-hidden">
+    <aside className="glass-panel overflow-hidden rounded-2xl">
       <div className="border-b border-brand-border bg-gradient-to-r from-brand-gold/10 via-transparent to-brand-gold/5 px-5 py-4">
         <div className="flex items-center gap-2 text-brand-gold">
           <Package size={16} />
@@ -75,8 +75,8 @@ export default function BundleUpsellCard({
       <ul className="divide-y divide-brand-border/80">
         {bundleItems.map((item) => (
           <li key={item.id} className="flex items-center gap-3 px-5 py-3">
-            <div className="h-14 w-12 shrink-0 overflow-hidden">
-              <LuxuryImage src={item.primaryImage} alt="" title={item.name} />
+            <div className="h-14 w-12 shrink-0 overflow-hidden rounded-xl">
+              <LuxuryImage src={item.primaryImage} alt="" title={item.name} className="rounded-xl" />
             </div>
             <div className="min-w-0 flex-1">
               <Link

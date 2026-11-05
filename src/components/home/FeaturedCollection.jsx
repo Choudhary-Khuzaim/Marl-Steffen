@@ -66,7 +66,7 @@ export default function FeaturedCollection() {
                   type="button"
                   onClick={() => setTab(item.id)}
                   className={[
-                    'relative border px-4 py-2 text-[11px] font-medium uppercase tracking-[0.14em] transition-colors duration-300',
+                    'relative rounded-full border px-4 py-1.5 text-[11px] font-medium uppercase tracking-[0.14em] transition-all duration-300',
                     active
                       ? 'border-brand-gold text-brand-gold'
                       : 'border-brand-border text-brand-muted hover:border-brand-gold/40 hover:text-brand-text',
@@ -75,7 +75,7 @@ export default function FeaturedCollection() {
                   {active && (
                     <motion.span
                       layoutId="activeCategoryTab"
-                      className="absolute inset-0 -z-10 bg-brand-gold/10"
+                      className="absolute inset-0 -z-10 rounded-full bg-brand-gold/10"
                       transition={{ type: 'spring', stiffness: 380, damping: 34 }}
                     />
                   )}
@@ -106,7 +106,7 @@ export default function FeaturedCollection() {
         <div className="mt-10 text-center">
           <Link
             to="/shop"
-            className="inline-block border border-brand-border px-7 py-3 text-xs font-medium uppercase tracking-[0.18em] text-brand-text transition-all duration-300 hover:border-brand-gold/50"
+            className="inline-block rounded-xl border border-brand-border px-7 py-3 text-xs font-medium uppercase tracking-[0.18em] text-brand-text transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-gold/50"
           >
             View Full Catalog
           </Link>
